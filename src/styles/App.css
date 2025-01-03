@@ -111,10 +111,10 @@ ol {
 }
 
 .home-image img {
-  max-width: 260px;
+  max-width: 240px;
   border-radius: 50%;
   animation: morph 8s ease-in-out infinite;
-  border: rgba(237, 213, 189) solid 15px;
+  border: rgba(237, 213, 189) solid 10px;
 }
 
 @keyframes morph {
@@ -201,6 +201,11 @@ ol {
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.no-results-message {
+  font-size: 20px;
+  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
 }
 
 /* Filter container */

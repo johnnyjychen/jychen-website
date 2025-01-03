@@ -96,19 +96,23 @@ const Portfolio = ({ setCurrentPage }) => {
         />
       </div>
 
-      <div className="portfolio-grid">
-        {filteredProjects.map((project) => (
-          <div
-            className="project-card"
-            key={project.id}
-            onClick={() => handleProjectClick(project.id)}
-          >
-            <img src={project.img} alt={project.name} />
-            <span className={`project-type ${getProjectTypeClass(project.type)}`}>{project.type}</span>
-            <h2 className="card-header">{project.name}</h2>
-          </div>
-        ))}
-      </div>
+      {filteredProjects.length > 0 ? (
+        <div className="portfolio-grid">
+          {filteredProjects.map((project) => (
+            <div
+              className="project-card"
+              key={project.id}
+              onClick={() => handleProjectClick(project.id)}
+            >
+              <img src={project.img} alt={project.name} />
+              <span className={`project-type ${getProjectTypeClass(project.type)}`}>{project.type}</span>
+              <h2 className="card-header">{project.name}</h2>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p className="no-results-message">Sorry, there are no matching projects.</p>
+      )}
     </div>
   );
 };

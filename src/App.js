@@ -9,7 +9,7 @@ import Kiss from './components/Kiss';
 import Water from './components/Water';
 import './styles/App.css';
 
-function App() {
+const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
 
   const renderPage = () => {
