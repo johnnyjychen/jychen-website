@@ -34,8 +34,9 @@ const FocusSphere = () => {
         <ul>
           <li><span className='highlight-green'>Overview</span>: I contributed to a project focused on designing a mobile app to help individuals with attention-deficit/hyperactivity disorder (ADHD) better prioritize and manage their daily tasks.
             Our work included conducting research and creating both wireframes and high-fidelity prototypes for the app.</li>
+          <li><span className='highlight-green'>Skills</span>: Competitive Analysis, User Interview, Heuristic Evaluation, User Flow, Wireframing, Low-fi/High-fi Prototyping, Figma, Adobe Photoshop</li>
           <li><span className='highlight-green'>Duration</span>: 09/2023 - 12/2023</li>
-          <li><span className='highlight-green'>Skills</span>: User Interview, Heuristic Evaluation, User Flow, Wireframing, Low-fi/High-fi Prototyping, Figma, Adobe Creative Suites</li>
+          <li><span className='highlight-green'>Type</span>: This is a group project.</li>
         </ul>
       </div>
 

@@ -17,8 +17,9 @@ const Water = () => {
                     <li><span className='highlight-green'>Overview</span>: In this project, our group spent three months studying Michigan municipalities' challenges in collecting, analyzing, and sharing data.
                         We outlined our research questions, methods, key insights, and the limitations of existing solutions, and then proposed potential improvements with unlimited resources.
                         Finally, we summarized the critical findings of our study.</li>
-                    <li><span className='highlight-green'>Duration</span>: 09/2023 - 12/2023</li>
                     <li><span className='highlight-green'>Skills</span>: Qualitative Research, Thematic Analysis (Miro), Google Products</li>
+                    <li><span className='highlight-green'>Duration</span>: 09/2023 - 12/2023</li>
+                    <li><span className='highlight-green'>Type</span>: This is a group project.</li>
                 </ul>
             </div>
 

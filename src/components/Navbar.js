@@ -17,17 +17,22 @@ const Navbar = ({ setCurrentPage }) => {
     <nav className="navbar">
       <div className="nav-content">
         <button className="hamburger-button" onClick={handleHamburgerClick}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
+          ☰
         </button>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><button onClick={() => handleNavClick('home')}>Home</button></li>
-          <li><button onClick={() => handleNavClick('portfolio')}>Projects</button></li>
+          <li>
+            <button onClick={() => handleNavClick('home')}>Home</button>
+          </li>
+          <li>
+            <button onClick={() => handleNavClick('portfolio')}>Projects</button>
+          </li>
+          <li>
+            <button onClick={() => handleNavClick('publication')}>Publications</button>
+          </li>
         </ul>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

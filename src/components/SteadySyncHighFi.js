@@ -17,8 +17,9 @@ const SteadySyncHiFi = () => {
                     <li><span className='highlight-green'>Overview</span>: In this project, I developed high-fidelity prototypes for the hypothetical company SteadySync, based on the provided wireframes. 
                     I organized all components into atoms, molecules, and organisms to clearly illustrate the structure and function of each element.
                     Finally, I presented nine complete interfaces.</li>
-                    <li><span className='highlight-green'>Duration</span>: 11/2024</li>
                     <li><span className='highlight-green'>Skills</span>: Figma, High-Fidelity Prototyping</li>
+                    <li><span className='highlight-green'>Duration</span>: 11/2024</li>
+                    <li><span className='highlight-green'>Type</span>: This is an individual project.</li>
                 </ul>
             </div>
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/App.css';
 import focussphere from '../images/portfolio/focussphere.png';
+import cc from '../images/portfolio/cc.png';
 import kiss from '../images/portfolio/kiss.png';
 import ss_logo from '../images/portfolio/ss-logo.png';
 import ss_hifi from '../images/portfolio/ss-hifi.png';
@@ -10,10 +11,11 @@ import water from '../images/portfolio/water.jpg';
 const Portfolio = ({ setCurrentPage }) => {
   const projects = [
     { id: 1, year: 2023, img: focussphere, name: 'FocusSphere', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
-    { id: 2, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
-    { id: 3, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
-    { id: 4, year: 2024, img: kiss, name: 'Kiss', type: 'UX Research', description: 'Description of KISS UX Research.' },
-    { id: 5, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
+    { id: 2, year: 2022, img: cc, name: 'CalmConnect', type: 'UX Research & Design', description: 'Description of CalmConnect.' },
+    { id: 3, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
+    { id: 4, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
+    { id: 5, year: 2024, img: kiss, name: 'Kiss', type: 'UX Research', description: 'Description of KISS UX Research.' },
+    { id: 6, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
   ];
 
   // Used useState to store the current values for year and type filters
@@ -58,15 +60,18 @@ const Portfolio = ({ setCurrentPage }) => {
         setCurrentPage('focussphere');
         break;
       case 2:
-        setCurrentPage('steadysynclogo');
+        setCurrentPage('calmconnect');
         break;
       case 3:
-        setCurrentPage('steadysynchighfi');
+        setCurrentPage('steadysynclogo');
         break;
       case 4:
-        setCurrentPage('kiss');
+        setCurrentPage('steadysynchighfi');
         break;
       case 5:
+        setCurrentPage('kiss');
+        break;
+      case 6:
         setCurrentPage('water');
         break;
       default:

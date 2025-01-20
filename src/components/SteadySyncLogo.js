@@ -21,8 +21,9 @@ const SteadySyncLogo = () => {
                     <li><span className='highlight-green'>Overview</span>: In this project, I designed a logo for a hypothetical company named SteadySync, 
                     which primarily provides AI-driven insights and personalized notifications that support lifestyle improvement and a balanced work-life dynamic.
                     I explained the rationale behind my choices and the meanings of each element used in the logo.</li>
-                    <li><span className='highlight-green'>Duration</span>: 11/2024</li>
                     <li><span className='highlight-green'>Skills</span>: Adobe Illustrator, Adobe Photoshop, Gestalt Principles, Color Harmonies</li>
+                    <li><span className='highlight-green'>Duration</span>: 11/2024</li>
+                    <li><span className='highlight-green'>Type</span>: This is an individual project.</li>
                 </ul>
             </div>
 

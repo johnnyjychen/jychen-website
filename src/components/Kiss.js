@@ -17,8 +17,9 @@ const Kiss = () => {
                     <li><span className='highlight-green'>Overview</span>: In this project, our team collaborated with KISS, a startup focused on promoting sexual health awareness and safer practices through its app, which features tools like anonymous notifications. 
                     We conducted comprehensive UX research to enhance the app's functionality, concentrating on enabling users to log their sexual activities and share health statuses with partners. 
                     Our work included user interviews, surveys, comparative analyses, heuristic evaluations, and usability testing.</li>
+                    <li><span className='highlight-green'>Skills</span>: User Interview, Survey, Comparative Evaluation, Heuristic Evaluation, Usability Testing, Presentation</li>
                     <li><span className='highlight-green'>Duration</span>: 02/2024 - 04/2024</li>
-                    <li><span className='highlight-green'>Skills</span>: User Interviews, Surveys, Comparative Evaluations, Heuristic Evaluations, Usability Testing, Presentation</li>
+                    <li><span className='highlight-green'>Type</span>: This is a group project.</li>
                 </ul>
             </div>
 
