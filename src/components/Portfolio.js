@@ -1,21 +1,25 @@
 import React, { useState } from 'react';
 import '../styles/App.css';
+import t1d from '../images/portfolio/t1d.jpg';
+import parking from '../images/portfolio/parking.png';
 import focussphere from '../images/portfolio/focussphere.png';
-import cc from '../images/portfolio/cc.png';
 import kiss from '../images/portfolio/kiss.png';
 import ss_logo from '../images/portfolio/ss-logo.png';
 import ss_hifi from '../images/portfolio/ss-hifi.png';
 import water from '../images/portfolio/water.jpg';
+import green from '../images/portfolio/green.jpg';
 
 // The projects are stored in an array called projects
 const Portfolio = ({ setCurrentPage }) => {
   const projects = [
-    { id: 1, year: 2023, img: focussphere, name: 'FocusSphere', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
-    { id: 2, year: 2022, img: cc, name: 'CalmConnect', type: 'UX Research & Design', description: 'Description of CalmConnect.' },
-    { id: 3, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
-    { id: 4, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
-    { id: 5, year: 2024, img: kiss, name: 'Kiss', type: 'UX Research', description: 'Description of KISS UX Research.' },
-    { id: 6, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
+    { id: 1, year: 2025, img: t1d, name: 'T1D Health Data Tracking App', type: 'UX Research & Design', description: 'Description of T1D Design.' },
+    { id: 2, year: 2025, img: parking, name: 'OpenSpot (Parking App)', type: 'UX Research & Design', description: 'Description of Parking app.' },
+    { id: 3, year: 2023, img: focussphere, name: 'FocusSphere (Task Management App)', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
+    { id: 4, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
+    { id: 5, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
+    { id: 6, year: 2024, img: kiss, name: 'KISS (Sexual Health Awareness)', type: 'UX Research', description: 'Description of KISS UX Research.' },
+    { id: 7, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
+    { id: 8, year: 2025, img: green, name: 'Sustainability Career and Job Satisfaction', type: 'Quantitative Research', description: 'Description of Quantitative Research.' },
   ];
 
   // Used useState to store the current values for year and type filters
@@ -49,6 +53,8 @@ const Portfolio = ({ setCurrentPage }) => {
       return 'ui-design-type';
     } else if (lowerType.includes('qualitative research')) {
       return 'qualitative-research-type';
+    } else if (lowerType.includes('quantitative research')) {
+      return 'quantitative-research-type';
     } else {
       return '';
     }
@@ -57,22 +63,28 @@ const Portfolio = ({ setCurrentPage }) => {
   const handleProjectClick = (id) => {
     switch (id) {
       case 1:
-        setCurrentPage('focussphere');
+        setCurrentPage('t1design');
         break;
       case 2:
-        setCurrentPage('calmconnect');
+        setCurrentPage('parking');
         break;
       case 3:
-        setCurrentPage('steadysynclogo');
+        setCurrentPage('focussphere');
         break;
       case 4:
-        setCurrentPage('steadysynchighfi');
+        setCurrentPage('steadysynclogo');
         break;
       case 5:
-        setCurrentPage('kiss');
+        setCurrentPage('steadysynchighfi');
         break;
       case 6:
+        setCurrentPage('kiss');
+        break;
+      case 7:
         setCurrentPage('water');
+        break;
+      case 8:
+        setCurrentPage('greenjob');
         break;
       default:
         setCurrentPage('portfolio');

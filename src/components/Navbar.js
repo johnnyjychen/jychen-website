@@ -24,10 +24,10 @@ const Navbar = ({ setCurrentPage }) => {
             <button onClick={() => handleNavClick('home')}>Home</button>
           </li>
           <li>
-            <button onClick={() => handleNavClick('portfolio')}>Projects</button>
+            <button onClick={() => handleNavClick('publication')}>Publications</button>
           </li>
           <li>
-            <button onClick={() => handleNavClick('publication')}>Publications</button>
+            <button onClick={() => handleNavClick('portfolio')}>Projects</button>
           </li>
         </ul>
       </div>

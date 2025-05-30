@@ -26,14 +26,14 @@ const FocusSphere = () => {
   return (
     <div className="project-container">
       <div className="project-section">
-        <h1>FocusSphere</h1>
+        <h1>FocusSphere (Task Management App)</h1>
       </div>
 
       <div className="project-section">
         <h2>Project Information</h2>
         <ul>
           <li><span className='highlight-green'>Overview</span>: I contributed to a project focused on designing a mobile app to help individuals with attention-deficit/hyperactivity disorder (ADHD) better prioritize and manage their daily tasks.
-            Our work included conducting research and creating both wireframes and high-fidelity prototypes for the app.</li>
+          Our work included conducting research and creating both wireframes and high-fidelity prototypes for the app.</li>
           <li><span className='highlight-green'>Skills</span>: Competitive Analysis, User Interview, Heuristic Evaluation, User Flow, Wireframing, Low-fi/High-fi Prototyping, Figma, Adobe Photoshop</li>
           <li><span className='highlight-green'>Duration</span>: 09/2023 - 12/2023</li>
           <li><span className='highlight-green'>Type</span>: This is a group project.</li>
@@ -43,7 +43,7 @@ const FocusSphere = () => {
       <div className="project-section">
         <h2>Research Background</h2>
         <p><span className='highlight-green'>Background</span>: To gain insight into the challenges faced by individuals with ADHD and evaluate existing solutions, we conducted a literature review. 
-        Our findings revealed that they often struggle with working memory—the ability to retain information for immediate use—which impacts their ability to complete many daily tasks. 
+        Our findings revealed that they often struggle with working memory, an ability to retain information for immediate use, which impacts their ability to complete many daily tasks. 
         They also face difficulties concentrating on tasks and prioritizing them effectively. This highlights the importance of designing a product to help them manage tasks more efficiently.</p>
         <p><span className='highlight-green'>Existing Solutions</span>: We identified several existing methods to help individuals with ADHD improve their memory, including the use of visual aids and electronic reminders. 
         Visual aids are particularly beneficial as they assist individuals with ADHD in understanding, remembering, and following the information they receive. 
@@ -54,8 +54,8 @@ const FocusSphere = () => {
         <h2>Competitive Analysis</h2>
         <h3>Analogous Competitor (Forest)</h3>
         <div className="three-column-section">
-          <div className="image-column">
-            <img src={forest} alt="Analogous Competitor (Forest)" />
+          <div className="image-half-column">
+            <img src={forest} alt="Analogous Competitor (Forest)"/>
           </div>
           <div className="text-columns">
             <p className='highlight-green'>Pros</p>
@@ -73,7 +73,7 @@ const FocusSphere = () => {
 
         <h3>Direct Competitor (TickTick)</h3>
         <div className="three-column-section">
-          <div className="image-column">
+          <div className="image-half-column">
             <img src={ticktick} alt="Direct Competitor (TickTick)" />
           </div>
           <div className="text-columns">
@@ -94,7 +94,7 @@ const FocusSphere = () => {
 
         <h3>Partial Competitor (Notes - IOS system)</h3>
         <div className="three-column-section">
-          <div className="image-column">
+          <div className="image-half-column">
             <img src={notes} alt="Partial Competitor (Notes - IOS system)" />
           </div>
           <div className="text-columns">
@@ -158,7 +158,7 @@ const FocusSphere = () => {
         </div>
       </div>
 
-      <div className="project-section">
+      {/* <div className="project-section">
         <h2>Paper Prototypes</h2>
         <div>
           <h3>Sign Up/Log In</h3>
@@ -180,7 +180,7 @@ const FocusSphere = () => {
           <h3>Report Page</h3>
           <img src={paper5} alt="Paper Prototypes Report Page" />
         </div>
-      </div>
+      </div> */}
 
       <div className="project-section">
         <h2>Wireframes</h2>

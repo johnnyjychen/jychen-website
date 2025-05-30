@@ -8,7 +8,7 @@ const Kiss = () => {
     return (
         <div className="project-container">
             <div className="project-section">
-                <h1>KISS</h1>
+                <h1>KISS (Sexual Health Awareness)</h1>
             </div>
 
             <div className="project-section">

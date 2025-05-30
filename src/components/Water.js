@@ -8,7 +8,7 @@ const Water = () => {
     return (
         <div className="project-container">
             <div className="project-section">
-                <h1>Aging Water Infrastructures</h1>
+                <h1>Aging Water Infrastructures in Michigan</h1>
             </div>
 
             <div className="project-section">
