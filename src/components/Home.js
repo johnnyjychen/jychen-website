@@ -37,7 +37,7 @@ const Home = ({ setCurrentPage }) => {
                     My primary work focuses on:
                 </p>
                 <ul>
-                    <li className='indent'>1. <span className=' highlight-green'>Human-Robot Interaction</span>: Examining how different conversational styles used by robots influence people's perceptions of trustworthiness during interactions.</li>
+                    <li className='indent'>1. <span className=' highlight-green'>Human-Robot Interaction</span>: Examining how different conversational styles used by robots influence people's perceptions during interactions.</li>
                     <li className='indent'>2. <span className=' highlight-green'>Child-Computer Interaction</span>: Investigating how children with Type 1 Diabetes and their parents can work collaboratively to track and manage the child's health data.</li>
                     <li className='indent'>3. <span className=' highlight-green'>Human-AI Co-Creation</span>: Exploring how AI-generated visuals may influence the creative brainstorming process for students who are proficient in digital art creation.</li>
                 </ul>
@@ -57,16 +57,16 @@ const Home = ({ setCurrentPage }) => {
                 <div className='margin-top'>
                     <h2>Recent news <span className='h2-paragraph clickable' onClick={() => setCurrentPage('news')}> [View all] </span></h2>
                     <ul>
-                        <li>[May, 2025] Graduated from UM and excited to start my next chapter at ASU! So grateful for everyone who supported me these past two years :)</li>
-                        <li>[April, 2025] Our <a href='https://dl.acm.org/doi/full/10.1145/3706598.3713596' target="_blank">CHI 2025 paper</a> got accepted-first full paper I've co-authored. Yay!</li>
+                        <li>[May, 2025] Graduated from UM and excited to start my next chapter at ASU this Fall!</li>
+                        <li>[April, 2025] Our <a href='https://dl.acm.org/doi/full/10.1145/3706598.3713596' target="_blank">CHI 2025 paper</a> got accepted!</li>
                     </ul>
                 </div>
 
                 <div className='margin-top'>
                     <h2>Awards and Honors</h2>
                     <ul>
-                        <li>[Feburary, 2025] Received Fulton Fellowship, Arizona State University</li>
-                        <li>[March, 2023] Received Merit-Based UMSI Half Tuition Scholarship, University of Michigan</li>
+                        <li>[Feburary, 2025] Received Fulton Fellowship from Arizona State University</li>
+                        <li>[March, 2023] Received Merit-Based UMSI Half Tuition Scholarship from the University of Michigan</li>
                     </ul>
                 </div>
             </div>
