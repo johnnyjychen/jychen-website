@@ -37,7 +37,7 @@ const Home = ({ setCurrentPage }) => {
                     My primary work focuses on:
                 </p>
                 <ul>
-                    <li className='indent'>1. <span className=' highlight-green'>Human-Robot Interaction</span>: Examining how different conversational styles used by robots influence people's perceptions during interactions.</li>
+                    <li className='indent'>1. <span className=' highlight-green'>Human-Robot Interaction</span>: Examining how different conversational styles used by robots influence older adults' perceptions during interactions.</li>
                     <li className='indent'>2. <span className=' highlight-green'>Child-Computer Interaction</span>: Investigating how children with Type 1 Diabetes and their parents can work collaboratively to track and manage the child's health data.</li>
                     <li className='indent'>3. <span className=' highlight-green'>Human-AI Co-Creation</span>: Exploring how AI-generated visuals may influence the creative brainstorming process for students who are proficient in digital art creation.</li>
                 </ul>

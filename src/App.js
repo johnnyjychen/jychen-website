@@ -42,8 +42,8 @@ const App = () => {
         return <Kiss setCurrentPage={setCurrentPage} />;
       case 'water':
         return <Water setCurrentPage={setCurrentPage} />;
-      case 'greenjob':
-        return <GreenJob setCurrentPage={setCurrentPage} />;
+      // case 'greenjob':
+      //   return <GreenJob setCurrentPage={setCurrentPage} />;
       default:
         return <Home />;
     }

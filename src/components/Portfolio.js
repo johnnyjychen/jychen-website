@@ -7,7 +7,7 @@ import kiss from '../images/portfolio/kiss.png';
 import ss_logo from '../images/portfolio/ss-logo.png';
 import ss_hifi from '../images/portfolio/ss-hifi.png';
 import water from '../images/portfolio/water.jpg';
-import green from '../images/portfolio/green.jpg';
+// import green from '../images/portfolio/green.jpg';
 
 // The projects are stored in an array called projects
 const Portfolio = ({ setCurrentPage }) => {
@@ -19,7 +19,7 @@ const Portfolio = ({ setCurrentPage }) => {
     { id: 5, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
     { id: 6, year: 2024, img: kiss, name: 'KISS (Sexual Health Awareness)', type: 'UX Research', description: 'Description of KISS UX Research.' },
     { id: 7, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
-    { id: 8, year: 2025, img: green, name: 'Sustainability Career and Job Satisfaction', type: 'Quantitative Research', description: 'Description of Quantitative Research.' },
+   // { id: 8, year: 2025, img: green, name: 'Sustainability Career and Job Satisfaction', type: 'Quantitative Research', description: 'Description of Quantitative Research.' },
   ];
 
   // Used useState to store the current values for year and type filters
