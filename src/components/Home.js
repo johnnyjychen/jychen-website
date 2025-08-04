@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaLinkedin, FaEnvelope, FaGoogleScholar } from 'react-icons/fa6';
 import myProfileImage from '../images/myprofile.png';
 import '../styles/App.css';
@@ -8,7 +7,9 @@ const Home = ({ setCurrentPage }) => {
         <div className="home-container">
             <div className="home-image">
                 <img src={myProfileImage} alt="Profile" />
-                <div className="social-icons">
+                <h1 className='intro-left'>Johnny Chen</h1>
+                <h2 className='h2-title intro-left-nomargin'>UX Researcher in HCI & HRI</h2>
+                <div className="intro-left">
                     <a href="https://www.linkedin.com/in/johnny-yu-chen/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="icon linkedin" />
                     </a>
@@ -24,10 +25,8 @@ const Home = ({ setCurrentPage }) => {
             </div>
 
             <div className="home-intro">
-                <h1>Hi, I'm Johnny Chen</h1>
-                <h2 className='h2-title'>UX Researcher in Human-Computer Interaction & Human-Robot Interaction</h2>
                 <p>
-                    I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at the Ira A. Fulton Schools of Engineering, Arizona State University, advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Dr. Qiaoning Carol Zhang</a>.
+                    Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at the Ira A. Fulton Schools of Engineering, Arizona State University, advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Dr. Qiaoning Carol Zhang</a>.
                     Previously, I earned my Master's degree in Information from the University of Michigan and
                     Bachelor's degrees in Psychological Sciences and Sociology from Purdue University.
                 </p>
@@ -37,7 +36,7 @@ const Home = ({ setCurrentPage }) => {
                     My primary work focuses on:
                 </p>
                 <ul>
-                    <li className='indent'>1. <span className=' highlight-green'>Human-Robot Interaction</span>: Examining how different conversational styles used by robots influence older adults' perceptions during interactions.</li>
+                    <li className='indent'>1. <span className=' highlight-green'>Human-Robot Interaction</span>: Examining how different communication styles used by social robots influence older adults' perceptions in healthcare contexts.</li>
                     <li className='indent'>2. <span className=' highlight-green'>Child-Computer Interaction</span>: Investigating how children with Type 1 Diabetes and their parents can work collaboratively to track and manage the child's health data.</li>
                     <li className='indent'>3. <span className=' highlight-green'>Human-AI Co-Creation</span>: Exploring how AI-generated visuals may influence the creative brainstorming process for students who are proficient in digital art creation.</li>
                 </ul>
@@ -57,7 +56,7 @@ const Home = ({ setCurrentPage }) => {
                 <div className='margin-top'>
                     <h2>Recent news <span className='h2-paragraph clickable' onClick={() => setCurrentPage('news')}> [View all] </span></h2>
                     <ul>
-                        <li>[May, 2025] Graduated from UM and excited to start my next chapter at ASU this Fall!</li>
+                        <li>[May, 2025] Graduated from UM and excited to start my next chapter at ASU this Fall&#58;&#41;</li>
                         <li>[April, 2025] Our <a href='https://dl.acm.org/doi/full/10.1145/3706598.3713596' target="_blank">CHI 2025 paper</a> got accepted!</li>
                     </ul>
                 </div>

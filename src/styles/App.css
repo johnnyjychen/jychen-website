@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar&family=Shantell+Sans&family=Chilanka&family=Belanosima&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Alegreya&family=DM+Serif+Display&display=swap');
+
 
 /* Skip styles */
 .skip-link {
@@ -11,7 +12,7 @@
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
 }
 
 .skip-link:focus, .skip-link:active {
@@ -52,36 +53,37 @@ html, body {
 /* Typography */
 h1 {
   font-size: 32px;
-  font-family: 'Sigmar', Arial, Helvetica, sans-serif;
+  font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
 
 h2 {
   font-size: 24px;
-  font-family: 'Belanosima', Arial, Helvetica, sans-serif;
-  margin-bottom: 5px;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  /* margin-bottom: 5px; */
 }
 
 .h2-title {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-style: italic;
   color: #888888;
   font-size: 16px;
 }
 
 h3 {
-  font-family: 'Belanosima', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
 p {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 10px;
 }
 
 ul {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 10px;
@@ -89,10 +91,23 @@ ul {
 }
 
 ol {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 10px;
+}
+
+.h2-paragraph {
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.clickable {
+  color: #008A19;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 li {
@@ -133,7 +148,7 @@ li {
   border: none;
   font-weight: bold;
   cursor: pointer;
-  font-family: 'Shantell Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -178,19 +193,6 @@ li {
   margin-top: 20px;
 }
 
-.h2-paragraph {
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 10px;
-}
-
-.clickable {
-  color: #008A19;
-  font-weight: 800;
-  cursor: pointer;
-}
-
 .clickable:hover {
   text-decoration: underline;
 }
@@ -207,8 +209,19 @@ li {
   }
 }
 
-.social-icons {
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-left {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.intro-left-nomargin {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -216,7 +229,7 @@ li {
 
 .icon {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: color 0.3s, transform 0.3s;
 }
 
@@ -276,7 +289,7 @@ li {
   background: #008A19;
   padding: 5px 10px;
   border-radius: 15px;
-  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -284,7 +297,7 @@ li {
 
 .no-results-message {
   font-size: 20px;
-  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
 }
 
 .indent-disc {
@@ -315,14 +328,14 @@ li {
 
 .filter-label {
   font-size: 16px;
-  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
 }
 
 .filter-input {
   border: none;
   border-bottom: 1px solid #000;
   outline: none;
-  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
   width: 100px;
 }
@@ -349,7 +362,7 @@ li {
 }
 
 .card-header {
-  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 20px;
   margin: 5px 0;
 }

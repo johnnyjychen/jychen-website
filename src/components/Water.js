@@ -44,8 +44,10 @@ const Water = () => {
                         <img src={background} alt="Surveys" />
                     </div>
                     <div className="text-columns">
-                        <p>Michigan's water infrastructure is known to be in poor condition, but its exact state remains largely unknown due to inadequate record-keeping before digital systems were established (Lupher, Schneider, and Dennis 3). This lack of data complicates efforts to address current issues like aging pipes and their adverse effects on residents' health. Michigan also lacks the capability and authority to gather comprehensive data on its water system's financial health (Walton 1). 
-                            Detailed information on aging infrastructure is crucial for addressing these challenges (Rath 11), but poor communication between municipalities further hinders progress (Lupher, Schneider, and Dennis 17). Prolonged inaction accelerates infrastructure deterioration, which occurs at an increasingly rapid rate over time (Vedachalam et al. 872; Lupher, Schneider, and Dennis 17).
+                        <p>Michigan's water infrastructure is known to be in poor condition, but its exact state remains largely unknown due to inadequate record-keeping before digital systems were established (Lupher, Schneider, & Dennis, 2023, p. 3). 
+                            This lack of data complicates efforts to address current issues like aging pipes and their adverse effects on residents' health. Michigan also lacks the capability and authority to gather comprehensive data on its water system's financial health (Walton, 2022). 
+                            Detailed information on aging infrastructure is crucial for addressing these challenges (Rath, 2023, p. 11), but poor communication between municipalities further hinders progress (Lupher et al., 2023, p. 17). 
+                            Prolonged inaction accelerates infrastructure deterioration, which occurs at an increasingly rapid rate over time (Vedachalam et al., 2015, p. 872; Lupher et al., 2023, p. 17).
                         </p>
                     </div>
                 </div>
@@ -85,7 +87,8 @@ const Water = () => {
                     <div className="text-columns">
                         <p>Our project revealed significant insights but was not extensive enough to provide concrete recommendations.
                             If given more time and resources, we'd conduct more interviews with a broader range of stakeholders to resolve conflicting opinions and understand different perspectives better.
-                            In addition, we aim to access and delve deeper into two key databases—the American Water Works Association and the Water Research Foundation—to improve our interview questions. Lastly, exploring how transparency in infrastructure data affects funding decisions would help us gain a deeper understanding of the issues from all stakeholders' viewpoints.
+                            In addition, we aim to access and delve deeper into two key databases, the American Water Works Association and the Water Research Foundation, to improve our interview questions. 
+                            Lastly, exploring how transparency in infrastructure data affects funding decisions would help us gain a deeper understanding of the issues from all stakeholders' viewpoints.
                         </p>
                     </div>
                 </div>
