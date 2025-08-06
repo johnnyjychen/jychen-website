@@ -15,13 +15,15 @@
   font-family: 'Alegreya', Arial, Helvetica, sans-serif;
 }
 
-.skip-link:focus, .skip-link:active {
+.skip-link:focus,
+.skip-link:active {
   left: 20px;
   top: 20px;
 }
 
 /* Footer */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -201,9 +203,11 @@ li {
   0% {
     border-radius: 60% 40% 30% 60% / 60% 30% 60% 40%;
   }
+
   50% {
     border-radius: 30% 60% 60% 40% / 50% 60% 30% 60%;
   }
+
   100% {
     border-radius: 60% 40% 30% 60% / 60% 30% 60% 40%;
   }
@@ -533,8 +537,14 @@ a:hover {
     margin-top: 70px;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     text-align: center;
+  }
+
+  .indent {
+    padding-left: 0;
   }
 
   .two-column-section {
