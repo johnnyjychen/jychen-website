@@ -1,4 +1,3 @@
-import React from 'react';
 import problem from '../images/water/water-problem.png';
 import background from '../images/water/water-background.png';
 import affinity from '../images/water/water-affinity-wall.png';
@@ -63,8 +62,8 @@ const Water = () => {
                 <h2>Process</h2>
                 <p><span className='highlight-green'>Step 1</span>: Conducted research on Google Scholar and water service websites, identified ten sources, and summarized findings in a Google Sheet to pinpoint key issues and overlapping themes.</p>
                 <p><span className='highlight-green'>Step 2</span>: Reviewed SME video interviews individually, analyzed relevant ideas on aging water infrastructure, and practiced interview techniques by asking questions and taking notes.</p>
-                <p><span className='highlight-green'>Step 3</span>: Conducted SME Zoom interviews: Jiongyu interviewed Molly Maciejewski, Dawn interviewed Noah Urban, and the rest of the group interviewed Evan Pratt. Explored relevant topics and newly discovered points, including water infrastructure consolidation.</p>
-                <p><span className='highlight-green'>Step 3</span>: Conducted interviews with professional stakeholders from the City of Ann Arbor and EGLE using a prepared protocol. All team members attended a contextual interview with a City of Ann Arbor water plant employee, while Dawn and Aishah interviewed EGLE staff.</p>
+                <p><span className='highlight-green'>Step 3</span>: Conducted SME Zoom interviews: Johnny interviewed Molly Maciejewski, Dawn interviewed Noah Urban, and the rest of the group interviewed Evan Pratt. Explored relevant topics and newly discovered points, including water infrastructure consolidation.</p>
+                <p><span className='highlight-green'>Step 4</span>: Conducted interviews with professional stakeholders from the City of Ann Arbor and EGLE using a prepared protocol. All team members attended a contextual interview with a City of Ann Arbor water plant employee, while Dawn and Aishah interviewed EGLE staff.</p>
                 <p><span className='highlight-green'>Step 5</span>: Organized collected data using an affinity wall on Miro by categorizing ideas, summarizing each category, and iteratively refining the categorization process with color-coded sticky notes to identify common themes and important insights.</p>
                 <img src={affinity} alt="The affinity wall" />
             </div>

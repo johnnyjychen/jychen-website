@@ -12,14 +12,14 @@ import water from '../images/portfolio/water.jpg';
 // The projects are stored in an array called projects
 const Portfolio = ({ setCurrentPage }) => {
   const projects = [
-    { id: 1, year: 2025, img: t1d, name: 'T1D Health Data Tracking App', type: 'UX Research & Design', description: 'Description of T1D Design.' },
+    { id: 1, year: 2025, img: t1d, name: 'T1D Child Health Tracker', type: 'UX Research & Design', description: 'Description of T1D Design.' },
     { id: 2, year: 2025, img: parking, name: 'OpenSpot (Parking App)', type: 'UX Research & Design', description: 'Description of Parking app.' },
     { id: 3, year: 2023, img: focussphere, name: 'FocusSphere (Task Management App)', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
     { id: 4, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
     { id: 5, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
     { id: 6, year: 2024, img: kiss, name: 'KISS (Sexual Health Awareness)', type: 'UX Research', description: 'Description of KISS UX Research.' },
     { id: 7, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
-   // { id: 8, year: 2025, img: green, name: 'Sustainability Career and Job Satisfaction', type: 'Quantitative Research', description: 'Description of Quantitative Research.' },
+    // { id: 8, year: 2025, img: green, name: 'Sustainability Career and Job Satisfaction', type: 'Quantitative Research', description: 'Description of Quantitative Research.' },
   ];
 
   // Used useState to store the current values for year and type filters
@@ -83,9 +83,6 @@ const Portfolio = ({ setCurrentPage }) => {
       case 7:
         setCurrentPage('water');
         break;
-      case 8:
-        setCurrentPage('greenjob');
-        break;
       default:
         setCurrentPage('portfolio');
     }
@@ -93,7 +90,7 @@ const Portfolio = ({ setCurrentPage }) => {
 
   return (
     <div className="portfolio-container">
-      <h1>My Projects</h1>
+      <h1>UX/UI Projects</h1>
 
       <div className="filter-container">
         <span className="filter-label">Filters:</span>

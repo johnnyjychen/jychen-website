@@ -1,11 +1,11 @@
-import newsData from "./newsData";
+import awardsData from "./awardsData";
 
-const News = () => {
+const Awards = () => {
   return (
     <div className="project-container">
-      <h2>News</h2>
+      <h2>Awards & Honors</h2>
       <ul>
-        {newsData.map((awards, index) => (
+        {awardsData.map((awards, index) => (
           <li key={index}>
             [{awards.date}] <span dangerouslySetInnerHTML={{ __html: awards.content }} />
           </li>
@@ -15,4 +15,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default Awards;

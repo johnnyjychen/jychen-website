@@ -2,16 +2,17 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import News from './components/News';
+import Awards from './components/Awards';
+import Services from './components/Services';
 import Publications from './components/Publications';
 import Portfolio from './components/Portfolio';
-import T1Design from './components/T1Design';
 import Parking from './components/Parking';
 import FocusSphere from './components/FocusSphere';
 import SteadySyncLogo from './components/SteadySyncLogo';
 import SteadySyncHighFi from './components/SteadySyncHighFi';
 import Kiss from './components/Kiss';
 import Water from './components/Water';
-import GreenJob from './components/GreenJob';
+import T1Design from './components/T1Design';
 import './styles/App.css';
 
 const App = () => {
@@ -24,12 +25,14 @@ const App = () => {
         return <Home setCurrentPage={setCurrentPage} />;
       case 'news':
         return <News setCurrentPage={setCurrentPage} />;
+      case 'awards':
+        return <Awards setCurrentPage={setCurrentPage} />;
+      case 'services':
+        return <Services setCurrentPage={setCurrentPage} />;
       case 'portfolio':
         return <Portfolio setCurrentPage={setCurrentPage} />;
       case 'publication':
         return <Publications setCurrentPage={setCurrentPage} />;
-      case 't1design':
-        return <T1Design setCurrentPage={setCurrentPage} />;
       case 'parking':
         return <Parking setCurrentPage={setCurrentPage} />;
       case 'focussphere':
@@ -42,6 +45,8 @@ const App = () => {
         return <Kiss setCurrentPage={setCurrentPage} />;
       case 'water':
         return <Water setCurrentPage={setCurrentPage} />;
+      case 't1design':
+        return <T1Design setCurrentPage={setCurrentPage} />;
       // case 'greenjob':
       //   return <GreenJob setCurrentPage={setCurrentPage} />;
       default:
