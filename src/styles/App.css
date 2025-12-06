@@ -54,7 +54,7 @@ body {
 
 /* Typography */
 h1 {
-  font-size: 32px;
+  font-size: 28px;
   font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
 
@@ -179,9 +179,9 @@ li {
 }
 
 .home-image img {
-  max-width: 230px;
+  max-width: 210px;
   animation: morph 8s ease-in-out infinite;
-  border: #edd5bd solid 8px;
+  border: #edd5bd solid 6px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0,0,0,.15);
 }
