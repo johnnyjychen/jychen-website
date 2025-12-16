@@ -503,7 +503,6 @@ a:hover {
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     z-index: 999;
-    color: #000;
   }
 
   /* Slide in when open */
@@ -514,6 +513,7 @@ a:hover {
   .nav-links li {
     display: block;
     margin: 10px 0;
+    color: #000;
   }
 
   .navbar {

@@ -29,10 +29,9 @@ const Home = ({ setCurrentPage }) => {
 
             <div className="home-intro">
                 <p>
-                    Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at the Ira A. Fulton Schools of Engineering, Arizona State University, advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Dr. Qiaoning Carol Zhang</a>.
+                    Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at the Ira A. Fulton Schools of Engineering, Arizona State University, advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Prof. Qiaoning Carol Zhang</a>.
                     Before ASU, I completed my Master's degree in Information at the University of Michigan and dual Bachelor's degrees in Psychological Sciences and Sociology at Purdue University.
-                    Along the way, I have conducted research across several labs and disciplines, including with Dr. Sun Young Park, Dr. Kentaro Toyama, and Dr. X. Jessie Yang at UM, as well as Dr. Robert Proctor and Dr. Chelsea Song at Purdue.
-                    These diverse experiences fuel my interest in bridging psychology, sociology, information, and engineering to better understand human factors and system design.
+                    Along the way, I have conducted research across several labs and disciplines, working with Prof. Sun Young Park, Prof. Kentaro Toyama, and Prof. X. Jessie Yang at the University of Michigan, as well as Prof. Robert Proctor and Prof. Chelsea Song at Purdue, which has shaped my interest in bridging psychology, sociology, information, and engineering to better understand human factors and system design.
                 </p>
 
                 <p>
@@ -42,20 +41,6 @@ const Home = ({ setCurrentPage }) => {
                     Across these projects, I employed quantitative, qualitative, or mixed methods to understand users' experiences from multiple angles and translate those insights into accessible, user-centered designs and technologies.
                 </p>
 
-                {/* <p>
-                    My research interests lie in Human-Computer Interaction (HCI), Human-Robot Interaction (HRI), Health Informatics, and User Experience Design.
-                    My work centers on applying these areas to improve people's health and well-being.
-                    Currently, I am focusing on how <span class='highlight-green'>social robots can support older adults' well-being</span> by examining how different communication styles used by robots influence their perceptions and behavioral responses in healthcare contexts.
-                    In my previous work, I studied <span class='highlight-green'>mHealth technologies for children with Type 1 Diabetes (T1D)</span> and their parents, exploring how children with T1D and their parents collaboratively track and manage the children's health data.
-                    In addition, I have explored how AI-based platforms can support digital artists' art creation by <span class='highlight-green'>integrating AI into their artistic brainstorming process</span>.
-                </p>
-
-                <p>
-                    I take a holistic and evidence-driven approach to understanding and improving user experiences.
-                    I combine <span class='highlight-green'>quantitative</span> techniques (e.g., Python, R) to analyze people's perceptions and behavioral patterns, with <span class='highlight-green'>qualitative</span> methods (e.g., interviews, workshops) to uncover their deeper needs and expectations.
-                    Building on these insights, I use <span class='highlight-green'>prototyping and design</span> tools (e.g., Figma, Adobe Creative Suite) and <span class='highlight-green'>development</span> frameworks (e.g., React, Firebase) to create accessible and user-centered systems.
-                </p> */}
-
                 <p>
                     Thank you for browsing my website!
                     I am always excited to collaborate with researchers from diverse backgrounds who share similar research interests.
@@ -64,7 +49,6 @@ const Home = ({ setCurrentPage }) => {
 
                 <p>
                     Email: jchen429 [at] asu [dot] edu; johnnyuchen [at] gmail [dot] com
-                    {/* Email: <span className='highlight-green'>jchen429 [at] asu [dot] edu</span>; <span className='highlight-green'>johnnyuchen [at] gmail [dot] com</span> */}
                 </p>
 
                 <div className="margin-top">
