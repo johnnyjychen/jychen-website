@@ -59,7 +59,12 @@ const Home = ({ setCurrentPage }) => {
                 <p>
                     Thank you for browsing my website!
                     I am always excited to collaborate with researchers from diverse backgrounds who share similar research interests.
-                    If you are interested in connecting, feel free to reach out to me via email (<span className='highlight-green'>jchen429 [at] asu [dot] edu</span>).
+                    If you are interested in connecting, feel free to reach out to me via email.
+                </p>
+
+                <p>
+                    Email: jchen429 [at] asu [dot] edu; johnnyuchen [at] gmail [dot] com
+                    {/* Email: <span className='highlight-green'>jchen429 [at] asu [dot] edu</span>; <span className='highlight-green'>johnnyuchen [at] gmail [dot] com</span> */}
                 </p>
 
                 <div className="margin-top">
