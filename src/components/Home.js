@@ -1,4 +1,4 @@
-import { FaLinkedin, FaEnvelope, FaGoogleScholar } from 'react-icons/fa6';
+import { FaLinkedin, FaEnvelope, FaGoogleScholar, FaGraduationCap } from 'react-icons/fa6';
 import myProfileImage from '../images/myprofile.png';
 import newsData from "./newsData";
 import serviceData from "./serviceData";
@@ -29,22 +29,20 @@ const Home = ({ setCurrentPage }) => {
 
             <div className="home-intro">
                 <p>
-                    Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at the Ira A. Fulton Schools of Engineering, Arizona State University, advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Prof. Qiaoning Carol Zhang</a>.
-                    Before ASU, I completed my Master's degree in Information at the University of Michigan and dual Bachelor's degrees in Psychological Sciences and Sociology at Purdue University.
-                    Along the way, I have conducted research across several labs and disciplines, working with Prof. Sun Young Park, Prof. Kentaro Toyama, and Prof. X. Jessie Yang at the University of Michigan, as well as Prof. Robert Proctor and Prof. Chelsea Song at Purdue, which has shaped my interest in bridging psychology, sociology, information, and engineering to better understand human factors and system design.
+                    Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at Arizona State University's Ira A. Fulton Schools of Engineering, where I am advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Prof. Qiaoning Carol Zhang</a>.
+                    My research lies at the intersection of <span className='highlight-green'>Human-Computer Interaction (HCI)</span>, <span className='highlight-green'>Human-Robot Interaction (HRI)</span>, and <span className='highlight-green'>Health Informatics</span>. Driven by a passion for improving everyday well-being through technology, my current work investigates how the communication styles of social robots shape user perceptions and behaviors in healthcare settings, particularly for older adults.
                 </p>
 
                 <p>
-                    I work across <span className='highlight-green'>Human-Computer Interaction (HCI)</span>, <span className='highlight-green'>Human-Robot Interaction (HRI)</span>, and <span className='highlight-green'>Health Informatics</span>, to understand and improve how people interact with technology in their everyday lives. 
-                    My current work focuses on supporting older adults' well-being with social robots, especially how different robot communication styles shape users' perceptions and behaviors in healthcare settings. 
-                    Previously, I studied how children with Type 1 Diabetes (T1D) and their parents use mHealth tools to collaboratively track and manage health data, and how AI-based creative platforms can enhance digital artists' brainstorming in art-making processes.
-                    Across these projects, I employed quantitative, qualitative, or mixed methods to understand users' experiences from multiple angles and translate those insights into accessible, user-centered designs and technologies.
+                    My interdisciplinary approach is rooted in a diverse academic background, bridging insights from psychology, sociology, information, and engineering.
+                    During my Master's at the University of Michigan, I collaborated with Prof. Sun Young Park, Prof. Kentaro Toyama, and Prof. X. Jessie Yang on projects ranging from mHealth tools for family-based chronic disease management to AI-driven platforms for creative brainstorming.
+                    This followed my foundational training at Purdue University, where I worked with Prof. Robert Proctor and Prof. Chelsea Song to explore human performance and psychological methods.
                 </p>
 
                 <p>
-                    Thank you for browsing my website!
-                    I am always excited to collaborate with researchers from diverse backgrounds who share similar research interests.
-                    If you are interested in connecting, feel free to reach out to me via email.
+                    Across these diverse domains, I employ rigorous <span className='highlight-green'>mixed-methods research</span> to translate complex human insights into accessible, user-centered designs.
+                    I am always eager to collaborate with researchers and practitioners who are passionate about the future of human-centered technology.
+                    If you are interested in my work or potential collaborations, please feel free to reach out.
                 </p>
 
                 <p>
@@ -115,6 +113,46 @@ const Home = ({ setCurrentPage }) => {
                             </ul>
                         </div>
                     ))}
+                </div>
+
+                <div className="margin-top">
+                    <h2>
+                        Education
+                    </h2>
+                    <ul className="education">
+                        <li>
+                            <div className="edu-header">
+                                <FaGraduationCap className="edu-icon" />
+                                <span className="school">
+                                    Arizona State University, 2025 - 2029 (expected)
+                                </span>
+                            </div>
+                            <div className="degree">Ph.D. in Human Systems Engineering</div>
+                        </li>
+
+                        <li>
+                            <div className="edu-header">
+                                <FaGraduationCap className="edu-icon" />
+                                <span className="school">
+                                    University of Michigan, 2023 - 2025
+                                </span>
+                            </div>
+                            <div className="degree">M.S. in Information (UX Research and Design)</div>
+                        </li>
+
+                        <li>
+                            <div className="edu-header">
+                                <FaGraduationCap className="edu-icon" />
+                                <span className="school">
+                                    Purdue University, 2019 - 2022
+                                </span>
+                            </div>
+                            <div className="degree">
+                                B.S. in Psychological Sciences and B.A. in Sociology
+                            </div>
+                        </li>
+                    </ul>
+
                 </div>
 
             </div>

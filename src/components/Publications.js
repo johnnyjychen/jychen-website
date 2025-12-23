@@ -4,8 +4,6 @@ const Publications = () => {
             <h1>Publication</h1>
             <h2>Peer-Reviewed Conference Papers</h2>
             <ol>
-
-
                 <li>
                     (CHI 2025). Cha, Y. J., <span className='highlight-author'>Chen, J.</span>, Gunal, Y., Zhu, Q., Newman, M. W., and Park, S. Y. 
                     <span className="publication-ttle"> Collaborative Health-Tracking Technologies for Children and Parents: A Review of Current Studies and Directions for Future Research. </span>

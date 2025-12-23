@@ -258,6 +258,22 @@ li {
   /* font-weight: 800; */
 }
 
+.edu-header {
+  display: flex;
+  align-items: center;
+}
+
+.edu-icon {
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.degree {
+    margin-left: 22px;
+    font-size: 14px;
+    color: #777;
+}
+
 /* Portfolio */
 .portfolio-container {
   max-width: 1200px;
