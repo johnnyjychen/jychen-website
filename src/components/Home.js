@@ -123,7 +123,7 @@ const Home = ({ setCurrentPage }) => {
                         <li>
                             <div className="edu-header">
                                 <FaGraduationCap className="edu-icon" />
-                                <span className="school">
+                                <span>
                                     Arizona State University, 2025 - 2029 (expected)
                                 </span>
                             </div>
@@ -133,17 +133,17 @@ const Home = ({ setCurrentPage }) => {
                         <li>
                             <div className="edu-header">
                                 <FaGraduationCap className="edu-icon" />
-                                <span className="school">
+                                <span>
                                     University of Michigan, 2023 - 2025
                                 </span>
                             </div>
-                            <div className="degree">M.S. in Information (UX Research and Design)</div>
+                            <div className="degree">M.S. in Information</div>
                         </li>
 
                         <li>
                             <div className="edu-header">
                                 <FaGraduationCap className="edu-icon" />
-                                <span className="school">
+                                <span>
                                     Purdue University, 2019 - 2022
                                 </span>
                             </div>

@@ -77,7 +77,7 @@ const App = () => {
       </div>
 
       <footer className="footer">
-        <p>Last updated in 2025</p>
+        <p>Last updated in 2026</p>
       </footer>
     </div>
   );

@@ -145,6 +145,7 @@ li {
 }
 
 .nav-links button {
+  color: #000;
   background: none;
   border: none;
   font-weight: bold;
@@ -153,10 +154,16 @@ li {
   font-size: 16px;
 }
 
+.nav-links button:focus,
+.nav-links button:active,
+.nav-links button:visited {
+  color: #000;
+  outline: none;
+}
+
 .nav-links button:hover {
   text-decoration: underline;
   color: #008A19;
-  /* font-weight: 800; */
 }
 
 .hamburger-button {
@@ -547,6 +554,19 @@ a:hover {
 
   .home-image img {
     margin-top: 50px;
+  }
+
+  /* Education styles */
+  .education {
+    text-align: left;
+  }
+
+  .edu-header {
+    justify-content: flex-start;
+  }
+
+  .degree {
+    text-align: left;
   }
 
   /* Portfolio (mobile) */
