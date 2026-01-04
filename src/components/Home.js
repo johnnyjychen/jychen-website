@@ -25,6 +25,7 @@ const Home = ({ setCurrentPage }) => {
                         <FaEnvelope className="icon email" />
                     </a>
                 </div>
+                <p className='posting'>💼 I am seeking <span className='highlight-green'>HCI / HRI / Human Factors Engineering internships for Summer 2026</span> and would love to connect :&#41;</p>
             </div>
 
             <div className="home-intro">
