@@ -205,6 +205,7 @@ li {
   text-align: center;
   border: #888888 solid 2px;
   padding: 8px 12px;
+  max-width: 220px;
 }
 
 .home-intro {
