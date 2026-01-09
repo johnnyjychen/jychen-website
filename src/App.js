@@ -31,8 +31,8 @@ const App = () => {
         return <Services setCurrentPage={setCurrentPage} />;
       case 'portfolio':
         return <Portfolio setCurrentPage={setCurrentPage} />;
-      case 'publication':
-        return <Publications setCurrentPage={setCurrentPage} />;
+      // case 'publication':
+      //   return <Publications setCurrentPage={setCurrentPage} />;
       case 'parking':
         return <Parking setCurrentPage={setCurrentPage} />;
       case 'focussphere':
@@ -77,7 +77,7 @@ const App = () => {
       </div>
 
       <footer className="footer">
-        <p>Last updated in 2026</p>
+        <p>© 2026 Jiongyu Chen. All rights reserved.</p>
       </footer>
     </div>
   );

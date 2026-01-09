@@ -36,7 +36,7 @@ const Home = ({ setCurrentPage }) => {
 
                 <p>
                     My interdisciplinary approach is rooted in a diverse academic background, bridging insights from psychology, sociology, information, and engineering.
-                    During my Master's at the University of Michigan, I collaborated with Prof. Sun Young Park, Prof. Kentaro Toyama, and Prof. X. Jessie Yang on projects ranging from mHealth tools for family-based chronic disease management to AI-driven platforms for creative brainstorming.
+                    During my Master's at the University of Michigan, I collaborated with Prof. Sun Young Park, Prof. Kentaro Toyama, and Prof. X. Jessie Yang on projects ranging from mHealth tools for family-based type 1 diabetes management to AI-driven platforms for creative brainstorming.
                     This followed my foundational training at Purdue University, where I worked with Prof. Robert Proctor and Prof. Chelsea Song to explore human performance and psychological methods.
                 </p>
 
