@@ -1,4 +1,3 @@
-import React from 'react';
 import bg from '../images/parking/parking-background.png';
 import renter1 from '../images/parking/renter1.png';
 import renter2 from '../images/parking/renter2.png';

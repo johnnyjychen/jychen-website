@@ -25,18 +25,19 @@ const Home = ({ setCurrentPage }) => {
                         <FaEnvelope className="icon email" />
                     </a>
                 </div>
-                <p className='posting'>💼 I am seeking <span className='highlight-green'>HCI / HRI / Human Factors Engineering internships for Summer 2026</span> and would love to connect :&#41;</p>
+                <p className='posting'>💼 I am seeking <span className='highlight-green'>HCI / HRI / Human Factors Engineering internships for Summer 2027</span> and would love to connect :&#41;</p>
             </div>
 
             <div className="home-intro">
                 <p>
                     Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at Arizona State University's Ira A. Fulton Schools of Engineering, where I am advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Prof. Qiaoning Carol Zhang</a>.
-                    My research lies at the intersection of <span className='highlight-green'>Human-Computer Interaction (HCI)</span>, <span className='highlight-green'>Human-Robot Interaction (HRI)</span>, and <span className='highlight-green'>Health Informatics</span>. Driven by a passion for improving everyday well-being through technology, my current work investigates how the communication styles of social robots shape user perceptions and behaviors in healthcare settings, particularly for older adults.
+                    My research lies at the intersection of <span className='highlight-green'>Human-Computer Interaction (HCI)</span>, <span className='highlight-green'>Human-Robot Interaction (HRI)</span>, and <span className='highlight-green'>Healthcare</span>. 
+                    Driven by a passion for improving everyday well-being through technology, my current work investigates how the communication strategies of conversational agents shape user perceptions and behaviors in for older adults.
                 </p>
 
                 <p>
                     My interdisciplinary approach is rooted in a diverse academic background, bridging insights from psychology, sociology, information, and engineering.
-                    During my Master's at the University of Michigan, I collaborated with Prof. Sun Young Park, Prof. Kentaro Toyama, and Prof. X. Jessie Yang on projects ranging from mHealth tools for family-based type 1 diabetes management to AI-driven platforms for creative brainstorming.
+                    During my Master's at the University of Michigan, I collaborated with Prof. Sun Young Park, Prof. X. Jessie Yang, and Prof. Kentaro Toyama on projects ranging from health technologies for children and older adults to AI-driven platforms for creative brainstorming.
                     This followed my foundational training at Purdue University, where I worked with Prof. Robert Proctor and Prof. Chelsea Song to explore human performance and psychological methods.
                 </p>
 

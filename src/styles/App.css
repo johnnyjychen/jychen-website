@@ -91,6 +91,10 @@ ul {
   list-style: none;
 }
 
+.research-pub {
+  list-style: disc;
+}
+
 ol {
   font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -456,7 +460,7 @@ li {
 }
 
 .text-columns {
-  padding-left: 10px;
+  padding-left: 20px;
   grid-column: 2 / 4;
 }
 

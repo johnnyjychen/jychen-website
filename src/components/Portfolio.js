@@ -12,13 +12,13 @@ import water from '../images/portfolio/water.jpg';
 // The projects are stored in an array called projects
 const Portfolio = ({ setCurrentPage }) => {
   const projects = [
-    { id: 1, year: 2025, img: t1d, name: 'T1D Child Health Tracker', type: 'UX Research & Design', description: 'Description of T1D Design.' },
-    { id: 2, year: 2025, img: parking, name: 'OpenSpot (Parking App)', type: 'UX Research & Design', description: 'Description of Parking app.' },
-    { id: 3, year: 2023, img: focussphere, name: 'FocusSphere (Task Management App)', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
-    { id: 4, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
-    { id: 5, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
-    { id: 6, year: 2024, img: kiss, name: 'KISS (Sexual Health Awareness)', type: 'UX Research', description: 'Description of KISS UX Research.' },
-    { id: 7, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
+    // { id: 1, year: 2025, img: t1d, name: 'T1D Child Health Tracker', type: 'UX Research & Design', description: 'Description of T1D Design.' },
+    { id: 1, year: 2025, img: parking, name: 'OpenSpot (Parking App)', type: 'UX Research & Design', description: 'Description of Parking app.' },
+    { id: 2, year: 2023, img: focussphere, name: 'FocusSphere (Task Management App)', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
+    { id: 3, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },
+    { id: 4, year: 2024, img: ss_hifi, name: 'SteadySync (High-Fi Prototyping)', type: 'UI Design', description: 'Description of SteadySync High-Fi Prototyping.' },
+    { id: 5, year: 2024, img: kiss, name: 'KISS (Sexual Health Awareness)', type: 'UX Research', description: 'Description of KISS UX Research.' },
+    { id: 6, year: 2023, img: water, name: 'Aging Water Infrastructures', type: 'Qualitative Research', description: 'Description of Aging Water Infrastructures.' },
     // { id: 8, year: 2025, img: green, name: 'Sustainability Career and Job Satisfaction', type: 'Quantitative Research', description: 'Description of Quantitative Research.' },
   ];
 
@@ -62,25 +62,25 @@ const Portfolio = ({ setCurrentPage }) => {
 
   const handleProjectClick = (id) => {
     switch (id) {
+      // case 1:
+      //   setCurrentPage('t1design');
+      //   break;
       case 1:
-        setCurrentPage('t1design');
-        break;
-      case 2:
         setCurrentPage('parking');
         break;
-      case 3:
+      case 2:
         setCurrentPage('focussphere');
         break;
-      case 4:
+      case 3:
         setCurrentPage('steadysynclogo');
         break;
-      case 5:
+      case 4:
         setCurrentPage('steadysynchighfi');
         break;
-      case 6:
+      case 5:
         setCurrentPage('kiss');
         break;
-      case 7:
+      case 6:
         setCurrentPage('water');
         break;
       default:
