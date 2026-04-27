@@ -36,32 +36,6 @@ const Research = () => {
             </div>
 
             <div className="project-section">
-                <h2>Politeness Strategies and Face-Threatening Behaviors</h2>
-
-                <div className="research-row">
-                    <div className="research-icon">
-                        <img src={politeness} alt="Politeness" />
-                    </div>
-                    <div className="research-text">
-                        <p>
-                            System-initiated verbal interruptions are an important interaction phenomenon in human-agent communication with older adults, particularly when agents proactively provide information or issue reminders. Informed by Brown and Levinson's politeness theory, this study explores how different politeness strategies may influence older adults' perceptions of, and responses to, interruptions from robots and voice assistants.
-                        </p>
-                    </div>
-                </div>
-
-                <h3>Related Publications</h3>
-                <ul className='research-pub'>
-                    <li>
-                        (Under Review at IJHCI 2026).
-                        <span className="publication-title"> Title temporarily withheld for review. </span>
-                        {/* [<a href='' target="_blank">doi</a>] [<a href='' target="_blank">pdf</a>] */}
-                        <br />
-                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
-                    </li>
-                </ul>
-            </div>
-
-            <div className="project-section">
                 <h2>Collaborative Health Tracking for Children and Parents</h2>
 
                 <div className="research-row">
