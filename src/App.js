@@ -4,7 +4,7 @@ import Home from './components/Home';
 import News from './components/News';
 import Awards from './components/Awards';
 import Services from './components/Services';
-// import Research from './components/Research';
+import Research from './components/Research';
 import Publications from './components/Publications';
 import Portfolio from './components/Portfolio';
 import Parking from './components/Parking';
@@ -32,8 +32,8 @@ const App = () => {
         return <Services setCurrentPage={setCurrentPage} />;
       case 'portfolio':
         return <Portfolio setCurrentPage={setCurrentPage} />;
-      // case 'research':
-      //   return <Research setCurrentPage={setCurrentPage} />;
+      case 'research':
+        return <Research setCurrentPage={setCurrentPage} />;
       case 'publication':
         return <Publications setCurrentPage={setCurrentPage} />;
       case 'parking':

@@ -11,7 +11,6 @@ const Services = () => {
           <ul>
             {section.items.map((item, index) => (
               <li key={index}>
-                [{item.date}]{" "}
                 <span
                   dangerouslySetInnerHTML={{ __html: item.content }}
                 />

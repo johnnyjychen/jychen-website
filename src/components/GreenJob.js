@@ -11,10 +11,10 @@ const GreenJob = () => {
             <div className="project-section">
                 <h2>Project Information</h2>
                 <ul>
-                    <li><span className='highlight-green'>Overview</span>: In this project, </li>
-                    <li><span className='highlight-green'>Skills</span>: Quantitative Research, R (Programming Language)</li>
-                    <li><span className='highlight-green'>Duration</span>: 04/2025</li>
-                    <li><span className='highlight-green'>Type</span>: This is an individual project.</li>
+                    <li><span className='highlight-text'>Overview</span>: In this project, </li>
+                    <li><span className='highlight-text'>Skills</span>: Quantitative Research, R (Programming Language)</li>
+                    <li><span className='highlight-text'>Duration</span>: 04/2025</li>
+                    <li><span className='highlight-text'>Type</span>: This is an individual project.</li>
                 </ul>
             </div>
 

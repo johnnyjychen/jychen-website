@@ -8,48 +8,79 @@ import '../styles/App.css';
 const Home = ({ setCurrentPage }) => {
     return (
         <div className="home-container">
-            <div className="home-image">
-                <img src={myProfileImage} alt="Profile" />
-                <h1 className='intro-left'>Johnny Chen</h1>
-                <h2 className='h2-title intro-left-nomargin'>UX Researcher in HCI & HRI</h2>
-                <div className="intro-left">
-                    <a href="https://www.linkedin.com/in/johnny-yu-chen/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="icon linkedin" />
-                    </a>
 
-                    <a href="https://scholar.google.com/citations?user=M7GwXuQAAAAJ&hl=en" target="_blank">
-                        <FaGoogleScholar className="icon scholar" />
-                    </a>
+            <div className="home-top">
+                <div className="home-image">
+                    <img src={myProfileImage} alt="Profile" />
 
-                    <a href="mailto:johnnyuchen@gmail.com">
-                        <FaEnvelope className="icon email" />
-                    </a>
+                    <h1 className='intro-left'>Johnny Chen</h1>
+
+                    <h2 className='h2-title intro-left-nomargin'>
+                        UX Researcher in HCI & HRI
+                    </h2>
+
+                    <div className="intro-left">
+                        <a
+                            href="https://www.linkedin.com/in/johnny-yu-chen/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaLinkedin className="icon linkedin" />
+                        </a>
+
+                        <a
+                            href="https://scholar.google.com/citations?user=M7GwXuQAAAAJ&hl=en"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaGoogleScholar className="icon scholar" />
+                        </a>
+
+                        <a href="mailto:johnnyuchen@gmail.com">
+                            <FaEnvelope className="icon email" />
+                        </a>
+                    </div>
+
+                    <p className='posting'>
+                        💼 I am seeking{' '}
+                        <span className='highlight-text'>
+                            HCI / HRI / Human Factors Engineering internships for Summer 2026
+                        </span>{' '}
+                        and would love to connect :&#41;
+                    </p>
                 </div>
-                <p className='posting'>💼 I am seeking <span className='highlight-green'>HCI / HRI / Human Factors Engineering internships for Summer 2026</span> and would love to connect :&#41;</p>
+
+                <div className="home-intro">
+                    <p>
+                        Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a first-year Ph.D. student in <span className='highlight-text'>Human Systems Engineering</span> at Arizona State University's Ira A. Fulton Schools of Engineering, where I am advised by <a href='https://qiaoning-zhang.github.io/' target="_blank" rel="noopener noreferrer">Dr. Qiaoning (Carol) Zhang</a>.
+                    </p>
+
+                    <p>
+                        My research focuses on designing and evaluating <span className="highlight-text">human-centered AI systems</span>, especially conversational and robotic agents. 
+                        I study how these systems communicate with users and how different <span className="highlight-text">communication strategies</span> shape user <span className="highlight-text">trust</span>, <span className="highlight-text">experiences</span>, and <span className="highlight-text">behavioral outcomes</span> across healthcare and everyday contexts.
+                    </p>
+
+                    <p>
+                        My interdisciplinary background spans psychology, sociology, information, and engineering, allowing me to approach complex human-AI interaction problems from both theoretical and applied perspectives. 
+                        Before starting my Ph.D., I earned my M.S. in Information (Specialization in UX Research and Design) from the University of Michigan, where I worked with Dr. Sun Young Park, Dr. X. Jessie Yang, and Dr. Kentaro Toyama on projects including health technologies for children and older adults and AI-supported creative systems. 
+                        I previously completed my B.S. in Psychological Sciences and B.A. in Sociology at Purdue University, working with Dr. Robert Proctor and Dr. Q. Chelsea Song on human performance and experimental methods.
+                    </p>
+
+                    <p>
+                        Across these experiences, I use <span className="highlight-text">mixed-methods approaches</span> to translate insights about human behavior into <span className="highlight-text">actionable design implications</span> for real-world systems.
+                    </p>
+
+                    <p>
+                        I am particularly interested in collaborating on human-centered AI systems that require careful consideration of user trust, communication, and engagement.
+                        If you are interested in my work or potential collaborations, feel free to reach out at jchen429 [at] asu [dot] edu or johnnyuchen [at] gmail [dot] com.
+                    </p>
+
+                </div>
             </div>
 
-            <div className="home-intro">
-                <p>
-                    Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a Ph.D. student majoring in <span className='highlight-green'>Human Systems Engineering</span> at Arizona State University's Ira A. Fulton Schools of Engineering, where I am advised by <a href='https://qiaoning-zhang.github.io/' target="_blank">Prof. Qiaoning (Carol) Zhang</a>.
-                    My research lies at the intersection of <span className='highlight-green'>Human-Computer Interaction (HCI)</span>, <span className='highlight-green'>Human-Robot Interaction (HRI)</span>, and <span className='highlight-green'>Healthcare</span>. 
-                    Driven by a passion for improving everyday well-being through technology, my current work investigates how the communication strategies of conversational agents shape older adults' perceptions and behavioral responses.
-                </p>
+            <div className="home-content">
 
-                <p>
-                    My interdisciplinary approach is rooted in a diverse academic background, bridging insights from psychology, sociology, information, and engineering.
-                    During my Master's at the University of Michigan, I collaborated with Prof. Sun Young Park, Prof. X. Jessie Yang, and Prof. Kentaro Toyama on projects ranging from health technologies for children and older adults to AI-driven platforms for creative brainstorming.
-                    This followed my foundational training at Purdue University, where I worked with Prof. Robert Proctor and Prof. Chelsea Song to explore human performance and psychological methods.
-                </p>
-
-                <p>
-                    Across these diverse domains, I employ rigorous <span className='highlight-green'>mixed-methods research</span> to translate complex human insights into accessible, user-centered designs.
-                    I am always eager to collaborate with researchers and practitioners who are passionate about the future of human-centered technology.
-                    If you are interested in my work or potential collaborations, please feel free to reach out.
-                </p>
-
-                <p>
-                    Email: jchen429 [at] asu [dot] edu; johnnyuchen [at] gmail [dot] com
-                </p>
+                <div className="home-section-divider"></div>
 
                 <div className="margin-top">
                     <h2>
@@ -61,10 +92,12 @@ const Home = ({ setCurrentPage }) => {
                             [View all]
                         </span>
                     </h2>
+
                     <ul>
-                        {newsData.slice(0, 2).map((news, index) => (
+                        {newsData.slice(0, 4).map((news, index) => (
                             <li key={index}>
-                                [{news.date}] <span dangerouslySetInnerHTML={{ __html: news.content }} />
+                                [{news.date}]{" "}
+                                <span dangerouslySetInnerHTML={{ __html: news.content }} />
                             </li>
                         ))}
                     </ul>
@@ -80,10 +113,12 @@ const Home = ({ setCurrentPage }) => {
                             [View all]
                         </span>
                     </h2>
+
                     <ul>
-                        {awardsData.slice(0, 2).map((awards, index) => (
+                        {awardsData.slice(0, 4).map((awards, index) => (
                             <li key={index}>
-                                [{awards.date}] <span dangerouslySetInnerHTML={{ __html: awards.content }} />
+                                [{awards.date}]{" "}
+                                <span dangerouslySetInnerHTML={{ __html: awards.content }} />
                             </li>
                         ))}
                     </ul>
@@ -103,13 +138,11 @@ const Home = ({ setCurrentPage }) => {
                     {serviceData.map((section, sectionIndex) => (
                         <div key={sectionIndex}>
                             <h3>{section.title}</h3>
+
                             <ul>
-                                {section.items.slice(0, 2).map((item, index) => (
+                                {section.items.slice(0, 4).map((item, index) => (
                                     <li key={index}>
-                                        [{item.date}]{" "}
-                                        <span
-                                            dangerouslySetInnerHTML={{ __html: item.content }}
-                                        />
+                                        <span dangerouslySetInnerHTML={{ __html: item.content }} />
                                     </li>
                                 ))}
                             </ul>
@@ -117,19 +150,22 @@ const Home = ({ setCurrentPage }) => {
                     ))}
                 </div>
 
-                <div className="margin-top">
+                {/* <div className="margin-top">
                     <h2>
                         Education
                     </h2>
+
                     <ul className="education">
                         <li>
                             <div className="edu-header">
                                 <FaGraduationCap className="edu-icon" />
                                 <span>
-                                    Arizona State University, 2025 - 2029 (expected)
+                                    Arizona State University, 2025 - 2029 &#40;expected&#41;
                                 </span>
                             </div>
-                            <div className="degree">Ph.D. in Human Systems Engineering</div>
+                            <div className="degree">
+                                Ph.D. in Human Systems Engineering
+                            </div>
                         </li>
 
                         <li>
@@ -139,7 +175,9 @@ const Home = ({ setCurrentPage }) => {
                                     University of Michigan, 2023 - 2025
                                 </span>
                             </div>
-                            <div className="degree">M.S. in Information</div>
+                            <div className="degree">
+                                M.S. in Information
+                            </div>
                         </li>
 
                         <li>
@@ -154,10 +192,9 @@ const Home = ({ setCurrentPage }) => {
                             </div>
                         </li>
                     </ul>
-
-                </div>
-
+                </div> */}
             </div>
+
         </div>
     );
 }

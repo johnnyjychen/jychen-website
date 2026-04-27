@@ -25,28 +25,26 @@ import hifi5 from '../images/fs/fs-hifi5.png';
 const FocusSphere = () => {
   return (
     <div className="project-container">
-      <div className="project-section">
-        <h1>FocusSphere (Task Management App)</h1>
-      </div>
+      <h1 className="page-title">FocusSphere (Task Management App)</h1>
 
       <div className="project-section">
         <h2>Project Information</h2>
         <ul>
-          <li><span className='highlight-green'>Overview</span>: Our team worked on a project aimed at designing a mobile app to help individuals with attention-deficit/hyperactivity disorder (ADHD) better prioritize and manage their daily tasks. The project involved conducting user research and developing both wireframes and high-fidelity prototypes for the app.</li>
-          <li><span className='highlight-green'>Skills</span>: Competitive Analysis, User Interview, Heuristic Evaluation, User Flow, Wireframing, Low-fi/High-fi Prototyping, Figma, Adobe Photoshop</li>
-          <li><span className='highlight-green'>Duration</span>: 09/2023 - 12/2023</li>
-          <li><span className='highlight-green'>Type</span>: This is a group project.</li>
+          <li><span className='highlight-text'>Overview</span>: Our team worked on a project aimed at designing a mobile app to help individuals with attention-deficit/hyperactivity disorder (ADHD) better prioritize and manage their daily tasks. The project involved conducting user research and developing both wireframes and high-fidelity prototypes for the app.</li>
+          <li><span className='highlight-text'>Skills</span>: Competitive Analysis, User Interview, Heuristic Evaluation, User Flow, Wireframing, Low-fi/High-fi Prototyping, Figma, Adobe Photoshop</li>
+          <li><span className='highlight-text'>Duration</span>: 09/2023 - 12/2023</li>
+          <li><span className='highlight-text'>Type</span>: This is a group project.</li>
         </ul>
       </div>
 
       <div className="project-section">
         <h2>Research Background</h2>
-        <p><span className='highlight-green'>Background</span>: To gain insight into the challenges faced by individuals with ADHD and evaluate existing solutions, we conducted a literature review. 
-        Our findings revealed that they often struggle with working memory, an ability to retain information for immediate use, which impacts their ability to complete many daily tasks. 
-        They also face difficulties concentrating on tasks and prioritizing them effectively. This highlights the importance of designing a product to help them manage tasks more efficiently.</p>
-        <p><span className='highlight-green'>Existing Solutions</span>: We identified several existing methods to help individuals with ADHD improve their memory, including the use of visual aids and electronic reminders. 
-        Visual aids are particularly beneficial as they assist individuals with ADHD in understanding, remembering, and following the information they receive. 
-        However, finding effective visual aids that suit different situations can often be a challenge for them.</p>
+        <p><span className='highlight-text'>Background</span>: To gain insight into the challenges faced by individuals with ADHD and evaluate existing solutions, we conducted a literature review.
+          Our findings revealed that they often struggle with working memory, an ability to retain information for immediate use, which impacts their ability to complete many daily tasks.
+          They also face difficulties concentrating on tasks and prioritizing them effectively. This highlights the importance of designing a product to help them manage tasks more efficiently.</p>
+        <p><span className='highlight-text'>Existing Solutions</span>: We identified several existing methods to help individuals with ADHD improve their memory, including the use of visual aids and electronic reminders.
+          Visual aids are particularly beneficial as they assist individuals with ADHD in understanding, remembering, and following the information they receive.
+          However, finding effective visual aids that suit different situations can often be a challenge for them.</p>
       </div>
 
       <div className="project-section">
@@ -54,15 +52,15 @@ const FocusSphere = () => {
         <h3>Analogous Competitor (Forest)</h3>
         <div className="three-column-section">
           <div className="image-half-column">
-            <img src={forest} alt="Analogous Competitor (Forest)"/>
+            <img src={forest} alt="Analogous Competitor (Forest)" />
           </div>
           <div className="text-columns">
-            <p className='highlight-green'>Pros</p>
+            <p className='highlight-text'>Pros</p>
             <ol>
               <li>Phones overwhelm us with information, disrupting focus. This feature aims to block distractions, promoting immersion in tasks.</li>
               <li>It includes a reward system to motivate users by offering incentives for task completion, encouraging repeated productivity.</li>
             </ol>
-            <p className='highlight-green'>Cons</p>
+            <p className='highlight-text'>Cons</p>
             <ol>
               <li>It lacks task recording, which may hinder users with ADHD,
                 as environmental distractions can affect memory and focus even without phone interference.</li>
@@ -76,14 +74,14 @@ const FocusSphere = () => {
             <img src={ticktick} alt="Direct Competitor (TickTick)" />
           </div>
           <div className="text-columns">
-            <p className='highlight-green'>Pros</p>
+            <p className='highlight-text'>Pros</p>
             <ol>
               <li>Quickly add tasks via voice input, email conversion, Siri, widgets, or Quick Ball.</li>
               <li>Organize tasks with tags, deadlines, priorities, and sort by time or importance.</li>
               <li>Ensure deadlines are met with multiple reminders, smart parsing, and location-based alerts.</li>
               <li>Motivate users with achievement scores, statistics, and task summaries.</li>
             </ol>
-            <p className='highlight-green'>Cons</p>
+            <p className='highlight-text'>Cons</p>
             <ol>
               <li>The app's numerous features may overwhelm users with ADHD,
                 as they can struggle to process excessive information in a single platform.</li>
@@ -97,13 +95,13 @@ const FocusSphere = () => {
             <img src={notes} alt="Partial Competitor (Notes - IOS system)" />
           </div>
           <div className="text-columns">
-            <p className='highlight-green'>Pros</p>
+            <p className='highlight-text'>Pros</p>
             <ol>
               <li>Intuitive interface simplifies creating, editing, and organizing notes, helpful for users with ADHD.</li>
               <li>Seamless compatibility across Apple devices makes accessing notes convenient.</li>
               <li>Drawing and doodling on iPad aids ADHD users in expressing and organizing thoughts.</li>
             </ol>
-            <p className='highlight-green'>Cons</p>
+            <p className='highlight-text'>Cons</p>
             <ol>
               <li>Limited to Apple devices, excluding non-Apple users.</li>
               <li>Lacks built-in templates for quick record-keeping, making its simplicity a drawback.</li>

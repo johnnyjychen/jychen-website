@@ -1,4 +1,3 @@
-import React from 'react';
 import logo1 from '../images/logo/logo-1.png'
 import logo2 from '../images/logo/logo-2.png'
 import logo3 from '../images/logo/logo-3.png'
@@ -11,19 +10,17 @@ import logo8 from '../images/logo/logo-8.png'
 const SteadySyncLogo = () => {
     return (
         <div className="project-container">
-            <div className="project-section">
-                <h1>SteadySync (Logo Design)</h1>
-            </div>
+            <h1 className="page-title">SteadySync (Logo Design)</h1>
 
             <div className="project-section">
                 <h2>Project Information</h2>
                 <ul>
-                    <li><span className='highlight-green'>Overview</span>: In this project, I designed a logo for a hypothetical company named SteadySync, 
-                    which primarily provides AI-driven insights and personalized notifications that support lifestyle improvement and a balanced work-life dynamic.
-                    I explained the rationale behind my choices and the meanings of each element used in the logo.</li>
-                    <li><span className='highlight-green'>Skills</span>: Adobe Illustrator, Adobe Photoshop, Gestalt Principles, Color Harmonies</li>
-                    <li><span className='highlight-green'>Duration</span>: 11/2024</li>
-                    <li><span className='highlight-green'>Type</span>: This is an individual project.</li>
+                    <li><span className='highlight-text'>Overview</span>: In this project, I designed a logo for a hypothetical company named SteadySync,
+                        which primarily provides AI-driven insights and personalized notifications that support lifestyle improvement and a balanced work-life dynamic.
+                        I explained the rationale behind my choices and the meanings of each element used in the logo.</li>
+                    <li><span className='highlight-text'>Skills</span>: Adobe Illustrator, Adobe Photoshop, Gestalt Principles, Color Harmonies</li>
+                    <li><span className='highlight-text'>Duration</span>: 11/2024</li>
+                    <li><span className='highlight-text'>Type</span>: This is an individual project.</li>
                 </ul>
             </div>
 

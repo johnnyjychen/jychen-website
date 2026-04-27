@@ -1,4 +1,3 @@
-import React from 'react';
 import hifi1 from '../images/hifi/hifi-1.png'
 import hifi2 from '../images/hifi/hifi-2.png'
 import hifi3 from '../images/hifi/hifi-3.png'
@@ -7,19 +6,17 @@ import hifi4 from '../images/hifi/hifi-4.png'
 const SteadySyncHiFi = () => {
     return (
         <div className="project-container">
-            <div className="project-section">
-                <h1>SteadySync (High-Fi Prototyping)</h1>
-            </div>
+            <h1 className="page-title">SteadySync (High-Fi Prototyping)</h1>
 
             <div className="project-section">
                 <h2>Project Information</h2>
                 <ul>
-                    <li><span className='highlight-green'>Overview</span>: In this project, I developed high-fidelity prototypes for the hypothetical company SteadySync, based on the provided wireframes. 
-                    I organized all components into atoms, molecules, and organisms to clearly illustrate the structure and function of each element.
-                    Finally, I presented nine complete interfaces.</li>
-                    <li><span className='highlight-green'>Skills</span>: Figma, High-Fidelity Prototyping</li>
-                    <li><span className='highlight-green'>Duration</span>: 11/2024</li>
-                    <li><span className='highlight-green'>Type</span>: This is an individual project.</li>
+                    <li><span className='highlight-text'>Overview</span>: In this project, I developed high-fidelity prototypes for the hypothetical company SteadySync, based on the provided wireframes.
+                        I organized all components into atoms, molecules, and organisms to clearly illustrate the structure and function of each element.
+                        Finally, I presented nine complete interfaces.</li>
+                    <li><span className='highlight-text'>Skills</span>: Figma, High-Fidelity Prototyping</li>
+                    <li><span className='highlight-text'>Duration</span>: 11/2024</li>
+                    <li><span className='highlight-text'>Type</span>: This is an individual project.</li>
                 </ul>
             </div>
 
@@ -45,17 +42,17 @@ const SteadySyncHiFi = () => {
                     <div>
                         <h3>Visuals</h3>
                         <p>
-                        I selected appropriate illustrations for different achievements, 
-                        making it easy for users to understand what each achievement represents. 
-                        In addition, I chose suitable avatars for various users, including professionals like therapists and fitness coaches, to better convey the intended message.
+                            I selected appropriate illustrations for different achievements,
+                            making it easy for users to understand what each achievement represents.
+                            In addition, I chose suitable avatars for various users, including professionals like therapists and fitness coaches, to better convey the intended message.
                         </p>
                     </div>
 
                     <div>
                         <h3>Colors</h3>
                         <p>
-                        Regarding colors, I primarily chose to use aqua mint (#BCE2DC), white (#FFFFFF), and black (#000000) 
-                        because it can give users a sense of relaxation and calmness and allow them to see the texts and images clearly.
+                            Regarding colors, I primarily chose to use aqua mint (#BCE2DC), white (#FFFFFF), and black (#000000)
+                            because it can give users a sense of relaxation and calmness and allow them to see the texts and images clearly.
                         </p>
                     </div>
 

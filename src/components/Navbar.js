@@ -23,9 +23,9 @@ const Navbar = ({ setCurrentPage }) => {
           <li>
             <button onClick={() => handleNavClick('home')}>Home</button>
           </li>
-          {/* <li>
+          <li>
             <button onClick={() => handleNavClick('research')}>Research</button>
-          </li> */}
+          </li>
           <li>
             <button onClick={() => handleNavClick('publication')}>Publications</button>
           </li>
