@@ -2,20 +2,6 @@ import { useMemo, useState } from "react";
 
 const publications = [
     {
-        year: "2026",
-        type: "conference",
-        sectionTitle: "Peer-Reviewed Conference Papers",
-        venue: "HFES 2026",
-        authors: (
-            <>
-                <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
-            </>
-        ),
-        title: `"I Feel You" vs. "I Understand You": How Distinct Empathic Strategies Shape Robot Personality and Trust for Older Adults.`,
-        doi: "",
-        pdf: ""
-    },
-    {
         year: "2025",
         type: "conference",
         sectionTitle: "Peer-Reviewed Conference Papers",

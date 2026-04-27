@@ -18,7 +18,7 @@ const Research = () => {
                     <div className="research-text">
                         <p>
                             Empathy plays a critical role in healthcare communication for older adults and can be expressed through two distinct strategies: affective empathy, which responds to users' emotions, and cognitive empathy, which focuses on understanding users' perspectives.
-                            This line of research investigates how these strategies shape older adults' perceptions of healthcare conversational agents, such as perceived empathy, trust, and personality. 
+                            This line of research investigates how these strategies shape older adults' perceptions of healthcare conversational agents, such as perceived empathy, trust, and personality.
                         </p>
                     </div>
                 </div>
@@ -31,14 +31,6 @@ const Research = () => {
                         [<a href='https://doi.org/10.1145/3772363.3798526' target="_blank">doi</a>] [<a href='https://dl.acm.org/doi/pdf/10.1145/3772363.3798526' target="_blank">pdf</a>]
                         <br />
                         Authors: <span className='highlight-text'>Jiongyu Chen</span>, Camille Chalifoux, Na Du, Qiaoning Zhang.
-                    </li>
-
-                    <li>
-                        (HFES 2026).
-                        <span className="publication-title"> "I Feel You" vs. "I Understand You": How Distinct Empathic Strategies Shape Robot Personality and Trust for Older Adults. </span>
-                        [<a href='' target="_blank">doi</a>] [<a href='' target="_blank">pdf</a>]
-                        <br />
-                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
                     </li>
                 </ul>
             </div>
