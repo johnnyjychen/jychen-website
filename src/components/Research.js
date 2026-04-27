@@ -44,8 +44,7 @@ const Research = () => {
                     </div>
                     <div className="research-text">
                         <p>
-                            Interruptions are common face-threatening behaviors in human-agent interactions with older adults, especially when agents proactively provide information or deliver reminders.
-                            Drawing on Brown and Levinson's politeness theory, this line of research examines how different politeness strategies, including bald on-record, positive politeness, negative politeness, and off-record strategies, shape older adults' perceptions and behavioral responses to system-initiated verbal interruptions from robots and voice assistants.
+                            System-initiated verbal interruptions are an important interaction phenomenon in human-agent communication with older adults, particularly when agents proactively provide information or issue reminders. Informed by Brown and Levinson's politeness theory, this study explores how different politeness strategies may influence older adults' perceptions of, and responses to, interruptions from robots and voice assistants.
                         </p>
                     </div>
                 </div>
