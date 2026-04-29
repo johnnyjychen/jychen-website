@@ -35,6 +35,7 @@ const Research = () => {
                 </ul>
             </div>
 
+
             <div className="project-section">
                 <h2>Collaborative Health Tracking for Children and Parents</h2>
 
@@ -64,7 +65,7 @@ const Research = () => {
                     <li>
                         (CHI 2025).
                         <span className="publication-title"> Collaborative Health-Tracking Technologies for Children and Parents: A Review of Current Studies and Directions for Future Research. </span>
-                        [<a href='https://doi.org/10.1145/3772363.3798526' target="_blank">doi</a>] [<a href='https://dl.acm.org/doi/pdf/10.1145/3706598.3713596' target="_blank">pdf</a>]
+                        [<a href='https://doi.org/10.1145/3706598.3713596' target="_blank">doi</a>] [<a href='https://dl.acm.org/doi/pdf/10.1145/3706598.3713596' target="_blank">pdf</a>]
                         <br />
                         Authors: Yoon Jeong Cha, <span className='highlight-text'>Jiongyu Chen</span>, Yasemin Gunal, Qiying Zhu, Mark W. Newman, Sun Young Park.
                     </li>
