@@ -8,6 +8,7 @@ const Research = () => {
         <div className="project-container research-page">
             <h1>Research</h1>
 
+
             <div className="project-section">
                 <h2>Empathic Communication in Conversational Agents</h2>
 
@@ -18,7 +19,7 @@ const Research = () => {
                     <div className="research-text">
                         <p>
                             Empathy plays a critical role in healthcare communication for older adults and can be expressed through two distinct strategies: affective empathy, which responds to users' emotions, and cognitive empathy, which focuses on understanding users' perspectives.
-                            This line of research investigates how these strategies shape older adults' perceptions of healthcare conversational agents.
+                            This line of research investigates how these strategies shape older adults' perceptions of healthcare conversational agents, such as perceived empathy, trust, and personality.
                         </p>
                     </div>
                 </div>
@@ -26,7 +27,14 @@ const Research = () => {
                 <h3>Related Publications</h3>
                 <ul className='research-pub'>
                     <li>
-                        (CHI 2026).
+                        (HFES 2026).
+                        <span className="publication-title"> Title temporarily withheld for review. </span>
+                        {/* [<a href='#' target="_blank">doi</a>] [<a href='#' target="_blank">pdf</a>] */}
+                        <br />
+                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
+                    </li>
+                    <li>
+                        (CHI EA 2026).
                         <span className="publication-title"> Who Needs What? The Interaction Between Empathy Communication and Trait Empathy in a Home-Based Virtual Healthcare Robotic Agent for Older Adults. </span>
                         [<a href='https://doi.org/10.1145/3772363.3798526' target="_blank">doi</a>] [<a href='https://dl.acm.org/doi/pdf/10.1145/3772363.3798526' target="_blank">pdf</a>]
                         <br />

@@ -2,6 +2,20 @@ import { useMemo, useState } from "react";
 
 const publications = [
     {
+        year: "2026",
+        type: "conference",
+        sectionTitle: "Peer-Reviewed Conference Papers",
+        venue: "HFES 2026",
+        authors: (
+            <>
+                <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
+            </>
+        ),
+        title: "Title temporarily withheld for review.",
+        doi: "#",
+        pdf: "#"
+    },
+    {
         year: "2025",
         type: "conference",
         sectionTitle: "Peer-Reviewed Conference Papers",
@@ -11,7 +25,7 @@ const publications = [
                 Yoon Jeong Cha, <span className="highlight-text">Jiongyu Chen</span>, Yasemin Gunal, Qiying Zhu, Mark W. Newman, and Sun Young Park.
             </>
         ),
-        title: "Collaborative Health-Tracking Technologies for Children and Parents: A Review of Current Studies and Directions for Future Research.",
+        title: "Collaborative health-tracking technologies for children and parents: A review of current studies and directions for future research.",
         doi: "https://dl.acm.org/doi/full/10.1145/3706598.3713596",
         pdf: "https://dl.acm.org/doi/pdf/10.1145/3706598.3713596"
     },
@@ -53,7 +67,7 @@ const publications = [
                 <span className="highlight-text">Jiongyu Chen</span>, Camille Chalifoux, Na Du, and Qiaoning Zhang.
             </>
         ),
-        title: "Who Needs What? The Interaction Between Empathy Communication and Trait Empathy in a Home-Based Virtual Healthcare Robotic Agent for Older Adults.",
+        title: "Who needs what? The interaction between empathy communication and trait empathy in a home-based virtual healthcare robotic agent for older adults.",
         doi: "https://doi.org/10.1145/3772363.3798526",
         pdf: "https://dl.acm.org/doi/pdf/10.1145/3772363.3798526"
     },

@@ -44,7 +44,7 @@ const Home = ({ setCurrentPage }) => {
                     <p className='posting'>
                         💼 I am seeking{' '}
                         <span className='highlight-text'>
-                            HCI / HRI / Human Factors Engineering internships for Summer 2026
+                            HCI / HRI / Human Factors Engineering internships for Summer 2027
                         </span>{' '}
                         and would love to connect :&#41;
                     </p>
@@ -52,27 +52,29 @@ const Home = ({ setCurrentPage }) => {
 
                 <div className="home-intro">
                     <p>
-                        Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a first-year Ph.D. student in <span className='highlight-text'>Human Systems Engineering</span> at Arizona State University's Ira A. Fulton Schools of Engineering, where I am advised by <a href='https://qiaoning-zhang.github.io/' target="_blank" rel="noopener noreferrer">Dr. Qiaoning (Carol) Zhang</a>.
+                        Hi, I go by Johnny, though I publish under the name Jiongyu Chen. I am currently a <span className='highlight-text'>second-year Ph.D. student in Human Systems Engineering</span> at Arizona State University's Ira A. Fulton Schools of Engineering, where I am advised by <a href='https://qiaoning-zhang.github.io/' target="_blank" rel="noopener noreferrer">Dr. Qiaoning (Carol) Zhang</a>.
                     </p>
 
                     <p>
-                        My research focuses on designing and evaluating <span className="highlight-text">human-centered AI systems</span>, especially conversational and robotic agents. 
-                        I study how these systems communicate with users and how different <span className="highlight-text">communication strategies</span> shape user <span className="highlight-text">trust</span>, <span className="highlight-text">experiences</span>, and <span className="highlight-text">behavioral outcomes</span> across healthcare and everyday contexts.
+                        My research focuses on <span className="highlight-text">communication-centered human-AI collaboration</span>:
+                        how AI systems communicate with people, frame their contributions, adapt to interaction contexts, and shape user trust, experience, agency, and behavioral expectations.
+                        I primarily study <span className='highlight-text'>conversational and robotic agents</span> in healthcare and everyday settings, with broader interests in AI assistants and automated systems where communication, coordination, and trust calibration are critical.
                     </p>
 
                     <p>
-                        My interdisciplinary background spans psychology, sociology, information, and engineering, allowing me to approach complex human-AI interaction problems from both theoretical and applied perspectives. 
-                        Before starting my Ph.D., I earned my M.S. in Information (Specialization in UX Research and Design) from the University of Michigan, where I worked with Dr. Sun Young Park, Dr. X. Jessie Yang, and Dr. Kentaro Toyama on projects including health technologies for children and older adults and AI-supported creative systems. 
-                        I previously completed my B.S. in Psychological Sciences and B.A. in Sociology at Purdue University, working with Dr. Robert Proctor and Dr. Q. Chelsea Song on human performance and experimental methods.
+                        I use <span className='highlight-text'>mixed-methods approaches</span>, including online experiments, surveys, interviews, co-design, usability evaluation, statistical modeling, and qualitative analysis, to translate insights about human behavior into <span className='highlight-text'>design recommendations for trustworthy and user-centered AI systems</span>.
                     </p>
 
                     <p>
-                        Across these experiences, I use <span className="highlight-text">mixed-methods approaches</span> to translate insights about human behavior into <span className="highlight-text">actionable design implications</span> for real-world systems.
+                        Before starting my Ph.D., I earned my M.S. in Information from the University of Michigan, where I worked on child-parent health technologies, AI-supported creativity tools, and human-AI interaction. I also hold a B.S. in Psychological Sciences and a B.A. in Sociology from Purdue University.
                     </p>
 
                     <p>
-                        I am particularly interested in collaborating on human-centered AI systems that require careful consideration of user trust, communication, and engagement.
-                        If you are interested in my work or potential collaborations, feel free to reach out at jchen429 [at] asu [dot] edu or johnnyuchen [at] gmail [dot] com.
+                        I am interested in collaborating on <span className='highlight-text'>human-centered AI systems</span> that require careful attention to <span className='highlight-text'>user trust, communication, and engagement</span>, especially systems that involve conversational agents, AI-mediated decision-making, or collaborative human-AI interaction.
+                    </p>
+
+                    <p>
+                        <span className='highlight-text'>Contact:</span> jchen429 [at] asu [dot] edu | johnnyuchen [at] gmail [dot] com
                     </p>
 
                 </div>
