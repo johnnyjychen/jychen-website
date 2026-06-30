@@ -32,36 +32,6 @@ const publications = [
         pdf: "https://dl.acm.org/doi/pdf/10.1145/3706598.3713596"
     },
     {
-        year: "2027",
-        type: "conference",
-        status: "under-review",
-        sectionTitle: "Peer-Reviewed Conference Papers",
-        venue: "CHI 2027",
-        authors: (
-            <>
-                <span className="under-review-highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
-            </>
-        ),
-        title: "Title temporarily withheld for review.",
-        doi: "#",
-        pdf: "#"
-    },
-    {
-        year: "2027",
-        type: "conference",
-        status: "under-review",
-        sectionTitle: "Peer-Reviewed Conference Papers",
-        venue: "CHI 2027",
-        authors: (
-            <>
-                <span className="under-review-highlight-text">Jiongyu Chen</span>, Xiaoyu Li, and Qiaoning Zhang.
-            </>
-        ),
-        title: "Title temporarily withheld for review.",
-        doi: "#",
-        pdf: "#"
-    },
-    {
         year: "2026",
         type: "journal",
         status: "accepted",

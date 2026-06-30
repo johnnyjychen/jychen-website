@@ -59,7 +59,7 @@ const Research = () => {
                     <div className="research-text">
                         <p>
                             Children and parents often have different needs and preferences when using health-tracking technologies, creating challenges for the design of collaborative health-tracking systems.
-                            This line of research combines findings from a literature review of children's health-tracking research published between 2010 and 2024 and a co-design study involving children with Type 1 diabetes and their parents. 
+                            This line of research combines findings from a literature review of children's health-tracking research published between 2010 and 2024 and a co-design study involving children with Type 1 diabetes and their parents.
                             Together, these studies provide insights for designing family-centered health-tracking technologies that better support children's health management.
                         </p>
                     </div>
