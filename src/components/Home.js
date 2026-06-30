@@ -56,9 +56,8 @@ const Home = ({ setCurrentPage }) => {
                     </p>
 
                     <p>
-                        My research focuses on <span className="highlight-text">communication-centered human-AI collaboration</span>:
-                        how AI systems communicate with people, frame their contributions, adapt to interaction contexts, and shape user trust, experience, agency, and behavioral expectations.
-                        I primarily study <span className='highlight-text'>conversational and robotic agents</span> in healthcare and everyday settings, with broader interests in AI assistants and automated systems where communication, coordination, and trust calibration are critical.
+                        My research focuses on <span className='highlight-text'>communication-centered human-AI interaction</span>, particularly how conversational and robotic agents communicate with people, frame their contributions, adapt to interaction contexts, and shape user perceptions and behavioral responses. 
+                        I am especially interested in designing AI systems that support <span className='highlight-text'>older adults in healthcare and everyday settings</span>, while also exploring broader questions related to AI assistants and automated systems where communication, coordination, and trust calibration are critical.
                     </p>
 
                     <p>
