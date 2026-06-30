@@ -1,6 +1,4 @@
-import empathy from '../images/research/research-empathy.jpg';
-import curiosity from '../images/research/research-curiosity.jpg';
-import politeness from '../images/research/research-politeness.jpg';
+import verbal from '../images/research/research-verbal.jpg';
 import t1d from '../images/research/research-t1d.jpg';
 
 const Research = () => {
@@ -10,16 +8,16 @@ const Research = () => {
 
 
             <div className="project-section">
-                <h2>Empathic Communication in Conversational Agents</h2>
+                <h2>Verbal Communication Design for Older Adults in Robotic Agents</h2>
 
                 <div className="research-row">
                     <div className="research-icon">
-                        <img src={empathy} alt="Empathy" />
+                        <img src={verbal} alt="Verbal Communication" />
                     </div>
                     <div className="research-text">
                         <p>
-                            Empathy plays a critical role in healthcare communication for older adults and can be expressed through two distinct strategies: affective empathy, which responds to users' emotions, and cognitive empathy, which focuses on understanding users' perspectives.
-                            This line of research investigates how these strategies shape older adults' perceptions of healthcare conversational agents, such as perceived empathy, trust, and personality.
+                            Healthcare interactions rely not only on information exchange but also on how information is communicated. This research investigates how verbal communication strategies, including politeness and empathy, influence older adults' perceptions of healthcare conversational agents.
+                            By examining outcomes such as trust, perceived empathy, perceived personality, and intention to use, this work contributes to the design of conversational and robotic agents that better support the communication needs and preferences of older adults.
                         </p>
                     </div>
                 </div>
@@ -27,8 +25,15 @@ const Research = () => {
                 <h3>Related Publications</h3>
                 <ul className='research-pub'>
                     <li>
+                        (International Journal of Human-Computer Interaction, 2026).
+                        <span className="publication-title"> Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults. </span>
+                        {/* [<a href='#' target="_blank">doi</a>] [<a href='#' target="_blank">pdf</a>] */}
+                        <br />
+                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
+                    </li>
+                    <li>
                         (HFES 2026).
-                        <span className="publication-title"> Title temporarily withheld for review. </span>
+                        <span className="publication-title"> "I feel you" vs. "I understand you": How distinct empathic strategies shape robot personality and trust for older adults. </span>
                         {/* [<a href='#' target="_blank">doi</a>] [<a href='#' target="_blank">pdf</a>] */}
                         <br />
                         Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
@@ -54,8 +59,8 @@ const Research = () => {
                     <div className="research-text">
                         <p>
                             Children and parents often have different needs and preferences when using health-tracking technologies, creating challenges for the design of collaborative health-tracking systems.
-                            This line of research examines how children and parents track health data, drawing on prior work from 2010 to 2024 as well as co-design workshops with children with Type 1 diabetes and their parents.
-                            Together, this work aims to inform the design of family-centered health-tracking technologies that better support children's health management.
+                            This line of research combines findings from a literature review of children's health-tracking research published between 2010 and 2024 and a co-design study involving children with Type 1 diabetes and their parents. 
+                            Together, these studies provide insights for designing family-centered health-tracking technologies that better support children's health management.
                         </p>
                     </div>
                 </div>
@@ -63,7 +68,7 @@ const Research = () => {
                 <h3>Related Publications</h3>
                 <ul className='research-pub'>
                     <li>
-                        (Under Review at IJHCI 2026).
+                        (Under Review at International Journal of Human-Computer Interaction, 2026).
                         <span className="publication-title"> Title temporarily withheld for review. </span>
                         {/* [<a href='' target="_blank">doi</a>] [<a href='' target="_blank">pdf</a>] */}
                         <br />

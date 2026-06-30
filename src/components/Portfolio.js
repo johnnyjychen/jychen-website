@@ -12,7 +12,7 @@ import water from '../images/portfolio/water.jpg';
 // The projects are stored in an array called projects
 const Portfolio = ({ setCurrentPage }) => {
   const projects = [
-    { id: 1, year: 2025, img: t1d, name: 'T1D Child Health Tracker', type: 'UX Research & Design', description: 'Description of T1D Design.' },
+    { id: 1, year: 2025, img: t1d, name: 'Co-Designing Pediatric T1D Technology', type: 'UX Research & Design', description: 'Description of T1D Design.' },
     { id: 2, year: 2025, img: parking, name: 'OpenSpot (Parking App)', type: 'UX Research & Design', description: 'Description of Parking app.' },
     { id: 3, year: 2023, img: focussphere, name: 'FocusSphere (Task Management App)', type: 'UX Research & Design', description: 'Description of FocusSphere.' },
     { id: 4, year: 2024, img: ss_logo, name: 'SteadySync (Logo Design)', type: 'UI Design', description: 'Description of SteadySync Logo Design.' },

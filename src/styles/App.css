@@ -76,6 +76,11 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
 p {
   font-family: 'Alegreya', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -451,6 +456,10 @@ li {
   margin-bottom: 20px;
 }
 
+.project-section h4 {
+  margin-top: 10px;
+}
+
 .two-column-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -640,6 +649,23 @@ a:hover {
   max-height: 0;
   padding-bottom: 0;
   pointer-events: none;
+}
+
+.under-review-publication {
+  color: #8b8b8b;
+}
+
+.under-review-publication .publication-title {
+  color: #8b8b8b;
+  font-weight: 1000;
+}
+
+.under-review-publication a {
+  color: #8aa4bf;
+}
+
+.under-review-highlight-text {
+  color: #7f9bb8;
 }
 
 /* Responsive styles */

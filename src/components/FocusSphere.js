@@ -155,30 +155,6 @@ const FocusSphere = () => {
         </div>
       </div>
 
-      {/* <div className="project-section">
-        <h2>Paper Prototypes</h2>
-        <div>
-          <h3>Sign Up/Log In</h3>
-          <img src={paper1} alt="Paper Prototypes Sign up/log in" />
-        </div>
-        <div>
-          <h3>Home (Adding a New Task)</h3>
-          <img src={paper2} alt="Paper Prototypes Adding a New Task" />
-        </div>
-        <div>
-          <h3>Home Page (View/Edit/Delete)</h3>
-          <img src={paper3} alt="Paper Prototypes Home Page" />
-        </div>
-        <div>
-          <h3>Profile Page</h3>
-          <img src={paper4} alt="Paper Prototypes Profile Page" />
-        </div>
-        <div>
-          <h3>Report Page</h3>
-          <img src={paper5} alt="Paper Prototypes Report Page" />
-        </div>
-      </div> */}
-
       <div className="project-section">
         <h2>Wireframes</h2>
         <div>
@@ -200,13 +176,6 @@ const FocusSphere = () => {
         <div>
           <h3>Report Page</h3>
           <img src={wireframe5} alt="Wireframes Report Page" />
-        </div>
-      </div>
-
-      <div className="project-section">
-        <h2>Color Palette</h2>
-        <div className="full-bleed">
-          <img src={palette} alt="Color Palette" />
         </div>
       </div>
 

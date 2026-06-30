@@ -4,6 +4,7 @@ const publications = [
     {
         year: "2026",
         type: "conference",
+        status: "accepted",
         sectionTitle: "Peer-Reviewed Conference Papers",
         venue: "HFES 2026",
         authors: (
@@ -11,13 +12,14 @@ const publications = [
                 <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
             </>
         ),
-        title: "Title temporarily withheld for review.",
+        title: "\"I feel you\" vs. \"I understand you\": How distinct empathic strategies shape robot personality and trust for older adults.",
         doi: "#",
         pdf: "#"
     },
     {
         year: "2025",
         type: "conference",
+        status: "accepted",
         sectionTitle: "Peer-Reviewed Conference Papers",
         venue: "CHI 2025",
         authors: (
@@ -30,13 +32,29 @@ const publications = [
         pdf: "https://dl.acm.org/doi/pdf/10.1145/3706598.3713596"
     },
     {
-        year: "2026",
-        type: "journal",
-        sectionTitle: "Peer-Reviewed Journal Papers",
-        venue: "Under Review at IJHCI 2026",
+        year: "2027",
+        type: "conference",
+        status: "under-review",
+        sectionTitle: "Peer-Reviewed Conference Papers",
+        venue: "CHI 2027",
         authors: (
             <>
-                <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
+                <span className="under-review-highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
+            </>
+        ),
+        title: "Title temporarily withheld for review.",
+        doi: "#",
+        pdf: "#"
+    },
+    {
+        year: "2027",
+        type: "conference",
+        status: "under-review",
+        sectionTitle: "Peer-Reviewed Conference Papers",
+        venue: "CHI 2027",
+        authors: (
+            <>
+                <span className="under-review-highlight-text">Jiongyu Chen</span>, Xiaoyu Li, and Qiaoning Zhang.
             </>
         ),
         title: "Title temporarily withheld for review.",
@@ -46,11 +64,27 @@ const publications = [
     {
         year: "2026",
         type: "journal",
+        status: "accepted",
         sectionTitle: "Peer-Reviewed Journal Papers",
-        venue: "Under Review at IJHCI 2026",
+        venue: "International Journal of Human-Computer Interaction, 2026",
         authors: (
             <>
-                Yoon Jeong Cha, <span className="highlight-text">Jiongyu Chen</span>, Melissa Wang, Allison Liu, Hanning Li, Joyce Lee, Mark W. Newman, and Sun Young Park.
+                <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
+            </>
+        ),
+        title: "Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults.",
+        doi: "#",
+        pdf: "#"
+    },
+    {
+        year: "2026",
+        type: "journal",
+        status: "under-review",
+        sectionTitle: "Peer-Reviewed Journal Papers",
+        venue: "International Journal of Human-Computer Interaction, 2026",
+        authors: (
+            <>
+                Yoon Jeong Cha, <span className="under-review-highlight-text">Jiongyu Chen</span>, Melissa Wang, Allison Liu, Hanning Li, Joyce Lee, Mark W. Newman, and Sun Young Park.
             </>
         ),
         title: "Title temporarily withheld for review.",
@@ -60,8 +94,24 @@ const publications = [
     {
         year: "2026",
         type: "late-breaking-poster",
+        status: "accepted",
         sectionTitle: "Peer-Reviewed Posters & Late-Breaking Work",
-        venue: "CHI 2026",
+        venue: "HFES 2026",
+        authors: (
+            <>
+                <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
+            </>
+        ),
+        title: "The influence of perceived empathy and negative attitudes on trust in home healthcare robotic agents among older adults.",
+        doi: "#",
+        pdf: "#"
+    },
+    {
+        year: "2026",
+        type: "late-breaking-poster",
+        status: "accepted",
+        sectionTitle: "Peer-Reviewed Posters & Late-Breaking Work",
+        venue: "CHI EA 2026",
         authors: (
             <>
                 <span className="highlight-text">Jiongyu Chen</span>, Camille Chalifoux, Na Du, and Qiaoning Zhang.
@@ -70,7 +120,7 @@ const publications = [
         title: "Who needs what? The interaction between empathy communication and trait empathy in a home-based virtual healthcare robotic agent for older adults.",
         doi: "https://doi.org/10.1145/3772363.3798526",
         pdf: "https://dl.acm.org/doi/pdf/10.1145/3772363.3798526"
-    },
+    }
 ];
 
 const publicationTypes = [
@@ -127,7 +177,7 @@ const Publications = () => {
 
     return (
         <div className="project-container">
-            <h1>Selected Publications</h1>
+            <h1>Publications</h1>
 
             <div className="publication-filter-bar">
                 <div className="publication-filter-row">
@@ -171,62 +221,82 @@ const Publications = () => {
                 </p>
             )}
 
-            {Object.entries(groupedPublications).map(([sectionTitle, sectionPublications]) => {
-                const sectionIsVisible = sectionPublications.some(
-                    (publication) => publication.isVisible
-                );
+            {Object.entries(groupedPublications).map(
+                ([sectionTitle, sectionPublications]) => {
+                    const sectionIsVisible = sectionPublications.some(
+                        (publication) => publication.isVisible
+                    );
 
-                return (
-                    <div
-                        key={sectionTitle}
-                        className={`publication-section ${sectionIsVisible ? "show" : "hide"}`}
-                    >
-                        <h2>{sectionTitle}</h2>
+                    return (
+                        <div
+                            key={sectionTitle}
+                            className={`publication-section ${sectionIsVisible ? "show" : "hide"
+                                }`}
+                        >
+                            <h2>{sectionTitle}</h2>
 
-                        <ul className="research-pub">
-                            {sectionPublications.map((publication, index) => (
-                                <li
-                                    key={`${publication.venue}-${index}`}
-                                    className={`publication-item ${publication.isVisible ? "show" : "hide"}`}
-                                >
-                                    ({publication.venue}). {publication.authors}{" "}
-                                    <span className="publication-title">
-                                        {publication.title}{" "}
-                                    </span>
+                            <ul className="research-pub">
+                                {sectionPublications.map((publication, index) => (
+                                    <li
+                                        key={`${publication.venue}-${index}`}
+                                        className={`publication-item ${publication.isVisible ? "show" : "hide"
+                                            } ${publication.status === "under-review"
+                                                ? "under-review-publication"
+                                                : ""
+                                            }`}
+                                    >
+                                        {publication.status === "under-review" ? (
+                                            <>
+                                                (Under Review at {publication.venue}).{" "}
+                                            </>
+                                        ) : (
+                                            <>
+                                                ({publication.venue}).{" "}
+                                            </>
+                                        )}
 
-                                    {publication.doi && publication.doi !== "#" && (
-                                        <>
-                                            [
-                                            <a
-                                                href={publication.doi}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
-                                                doi
-                                            </a>
-                                            ]{" "}
-                                        </>
-                                    )}
+                                        {publication.authors}{" "}
 
-                                    {publication.pdf && publication.pdf !== "#" && (
-                                        <>
-                                            [
-                                            <a
-                                                href={publication.pdf}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
-                                                pdf
-                                            </a>
-                                            ]
-                                        </>
-                                    )}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                );
-            })}
+                                        <span className="publication-title">
+                                            {publication.title}{" "}
+                                        </span>
+
+                                        {publication.doi &&
+                                            publication.doi !== "#" && (
+                                                <>
+                                                    [
+                                                    <a
+                                                        href={publication.doi}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                    >
+                                                        doi
+                                                    </a>
+                                                    ]{" "}
+                                                </>
+                                            )}
+
+                                        {publication.pdf &&
+                                            publication.pdf !== "#" && (
+                                                <>
+                                                    [
+                                                    <a
+                                                        href={publication.pdf}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                    >
+                                                        pdf
+                                                    </a>
+                                                    ]
+                                                </>
+                                            )}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    );
+                }
+            )}
         </div>
     );
 };
