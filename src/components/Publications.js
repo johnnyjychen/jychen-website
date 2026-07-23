@@ -43,7 +43,7 @@ const publications = [
             </>
         ),
         title: "Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults.",
-        doi: "#",
+        doi: "https://doi.org/10.1080/10447318.2026.2693611",
         pdf: "#"
     },
     {

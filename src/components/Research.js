@@ -25,16 +25,16 @@ const Research = () => {
                 <h3>Related Publications</h3>
                 <ul className='research-pub'>
                     <li>
-                        (International Journal of Human-Computer Interaction, 2026).
-                        <span className="publication-title"> Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults. </span>
+                        (HFES 2026).
+                        <span className="publication-title"> "I feel you" vs. "I understand you": How distinct empathic strategies shape robot personality and trust for older adults. </span>
                         {/* [<a href='#' target="_blank">doi</a>] [<a href='#' target="_blank">pdf</a>] */}
                         <br />
                         Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
                     </li>
                     <li>
-                        (HFES 2026).
-                        <span className="publication-title"> "I feel you" vs. "I understand you": How distinct empathic strategies shape robot personality and trust for older adults. </span>
-                        {/* [<a href='#' target="_blank">doi</a>] [<a href='#' target="_blank">pdf</a>] */}
+                        (International Journal of Human-Computer Interaction, 2026).
+                        <span className="publication-title"> Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults. </span>
+                        [<a href='https://doi.org/10.1080/10447318.2026.2693611' target="_blank">doi</a>]
                         <br />
                         Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
                     </li>

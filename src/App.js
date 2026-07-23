@@ -18,7 +18,14 @@ import './styles/App.css';
 
 const App = () => {
 
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPageState] = useState(() => {
+    return sessionStorage.getItem('currentPage') || 'home';
+  });
+
+  const setCurrentPage = (page) => {
+    sessionStorage.setItem('currentPage', page);
+    setCurrentPageState(page);
+  };
 
   const renderPage = () => {
     switch (currentPage) {
