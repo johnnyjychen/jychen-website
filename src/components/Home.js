@@ -43,10 +43,8 @@ const Home = ({ setCurrentPage }) => {
 
                     <p className='posting'>
                         💼 I am seeking{' '}
-                        <span className='highlight-text'>
-                            HCI / HRI / Human Factors Engineering internships for Summer 2027
-                        </span>{' '}
-                        and would love to connect :&#41;
+                        HCI / HRI / Human Factors Engineering internships for <span className='highlight-text'>Summer 2027
+                        </span>{' '} and would love to connect :&#41;
                     </p>
                 </div>
 
@@ -56,24 +54,23 @@ const Home = ({ setCurrentPage }) => {
                     </p>
 
                     <p>
-                        My research focuses on <span className='highlight-text'>communication-centered human-AI interaction</span>, particularly how conversational and robotic agents communicate with people, frame their contributions, adapt to interaction contexts, and shape user perceptions and behavioral responses. 
-                        I am especially interested in designing AI systems that support <span className='highlight-text'>older adults in healthcare and everyday settings</span>, while also exploring broader questions related to AI assistants and automated systems where communication, coordination, and trust calibration are critical.
+                        My research focuses on <span className='highlight-text'>communication-centered human-AI interaction</span>, especially how conversational agents and social robots communicate with people, respond to social and interaction contexts, and shape users' perceptions, trust, and behavior.
+                        Much of my current work examines these questions with <span className='highlight-text'>older adults</span> in healthcare and everyday settings, while also exploring broader issues in AI assistants and collaborative systems where communication, coordination, and appropriate trust are central to the interaction.
                     </p>
 
                     <p>
-                        I use <span className='highlight-text'>mixed-methods approaches</span>, including online experiments, surveys, interviews, co-design, usability evaluation, statistical modeling, and qualitative analysis, to translate insights about human behavior into <span className='highlight-text'>design recommendations for trustworthy and user-centered AI systems</span>.
+                        I use <span className='highlight-text'>mixed-methods approaches</span>, including controlled experiments, surveys, interviews, co-design, field studies, statistical modeling, and qualitative analysis. My goal is to understand how people experience and respond to AI systems across different contexts and turn those findings into practical, evidence-based design guidance for technologies that are more trustworthy, empathic, supportive, and context-aware.
+                    </p>
+                    <p>
+                        Before starting my Ph.D., I earned an M.S. in Information from the University of Michigan, where I worked on child-parent health technologies and human-AI interaction. I also hold a B.S. in Psychological Sciences and a B.A. in Sociology from Purdue University.
                     </p>
 
                     <p>
-                        Before starting my Ph.D., I earned my M.S. in Information from the University of Michigan, where I worked on child-parent health technologies, AI-supported creativity tools, and human-AI interaction. I also hold a B.S. in Psychological Sciences and a B.A. in Sociology from Purdue University.
+                        I am always happy to connect with people working on human-centered AI, conversational agents, social robotics, digital health, and AI for older adults. Feel free to reach out if you are interested in related research or collaboration.
                     </p>
 
                     <p>
-                        I am interested in collaborating on <span className='highlight-text'>human-centered AI systems</span> that require careful attention to <span className='highlight-text'>user trust, communication, and engagement</span>, especially systems that involve conversational agents, AI-mediated decision-making, or collaborative human-AI interaction.
-                    </p>
-
-                    <p>
-                        <span className='highlight-text'>Contact:</span> jchen429 [at] asu [dot] edu | johnnyuchen [at] gmail [dot] com
+                        Contact: jchen429 [at] asu [dot] edu | johnnyuchen [at] gmail [dot] com
                     </p>
 
                 </div>
@@ -83,49 +80,54 @@ const Home = ({ setCurrentPage }) => {
 
                 <div className="home-section-divider"></div>
 
-                <div className="margin-top">
-                    <h2>
-                        News{" "}
-                        <span
-                            className="h2-paragraph clickable"
-                            onClick={() => setCurrentPage("news")}
-                        >
-                            [View all]
-                        </span>
-                    </h2>
+                <div className="home-info-grid">
 
-                    <ul>
-                        {newsData.slice(0, 4).map((news, index) => (
-                            <li key={index}>
-                                [{news.date}]{" "}
-                                <span dangerouslySetInnerHTML={{ __html: news.content }} />
-                            </li>
-                        ))}
-                    </ul>
+                    <div className="margin-top">
+                        <h2>
+                            News{" "}
+                            <span
+                                className="h2-paragraph clickable"
+                                onClick={() => setCurrentPage("news")}
+                            >
+                                [View all]
+                            </span>
+                        </h2>
+
+                        <ul>
+                            {newsData.slice(0, 4).map((news, index) => (
+                                <li key={index}>
+                                    [{news.date}]{" "}
+                                    <span dangerouslySetInnerHTML={{ __html: news.content }} />
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <div className="margin-top">
+                        <h2>
+                            Awards & Honors{" "}
+                            <span
+                                className="h2-paragraph clickable"
+                                onClick={() => setCurrentPage("awards")}
+                            >
+                                [View all]
+                            </span>
+                        </h2>
+
+                        <ul>
+                            {awardsData.slice(0, 4).map((awards, index) => (
+                                <li key={index}>
+                                    [{awards.date}]{" "}
+                                    <span dangerouslySetInnerHTML={{ __html: awards.content }} />
+                                </li>
+                            ))}
+                        </ul>
+
+                    </div>
+
                 </div>
 
-                <div className="margin-top">
-                    <h2>
-                        Awards & Honors{" "}
-                        <span
-                            className="h2-paragraph clickable"
-                            onClick={() => setCurrentPage("awards")}
-                        >
-                            [View all]
-                        </span>
-                    </h2>
-
-                    <ul>
-                        {awardsData.slice(0, 4).map((awards, index) => (
-                            <li key={index}>
-                                [{awards.date}]{" "}
-                                <span dangerouslySetInnerHTML={{ __html: awards.content }} />
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-
-                <div className="margin-top">
+                <div className="margin-top service-home">
                     <h2>
                         Services{" "}
                         <span
@@ -136,64 +138,26 @@ const Home = ({ setCurrentPage }) => {
                         </span>
                     </h2>
 
-                    {serviceData.map((section, sectionIndex) => (
-                        <div key={sectionIndex}>
-                            <h3>{section.title}</h3>
+                    <div className="service-home-grid">
+                        {serviceData.map((section, sectionIndex) => (
+                            <div key={sectionIndex}>
+                                <h3>{section.title}</h3>
 
-                            <ul>
-                                {section.items.slice(0, 4).map((item, index) => (
-                                    <li key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item.content }} />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
+                                <ul>
+                                    {section.items.slice(0, 4).map((item, index) => (
+                                        <li key={index}>
+                                            <span
+                                                dangerouslySetInnerHTML={{
+                                                    __html: item.content
+                                                }}
+                                            />
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
                 </div>
-
-                {/* <div className="margin-top">
-                    <h2>
-                        Education
-                    </h2>
-
-                    <ul className="education">
-                        <li>
-                            <div className="edu-header">
-                                <FaGraduationCap className="edu-icon" />
-                                <span>
-                                    Arizona State University, 2025 - 2029 &#40;expected&#41;
-                                </span>
-                            </div>
-                            <div className="degree">
-                                Ph.D. in Human Systems Engineering
-                            </div>
-                        </li>
-
-                        <li>
-                            <div className="edu-header">
-                                <FaGraduationCap className="edu-icon" />
-                                <span>
-                                    University of Michigan, 2023 - 2025
-                                </span>
-                            </div>
-                            <div className="degree">
-                                M.S. in Information
-                            </div>
-                        </li>
-
-                        <li>
-                            <div className="edu-header">
-                                <FaGraduationCap className="edu-icon" />
-                                <span>
-                                    Purdue University, 2019 - 2022
-                                </span>
-                            </div>
-                            <div className="degree">
-                                B.S. in Psychological Sciences and B.A. in Sociology
-                            </div>
-                        </li>
-                    </ul>
-                </div> */}
             </div>
 
         </div>

@@ -1,12 +1,10 @@
-import verbal from '../images/research/research-verbal.jpg';
-import t1d from '../images/research/research-t1d.jpg';
+import workshop from '../images/research/workshop.png';
+import verbal from '../images/research/research-verbal.png';
 
 const Research = () => {
     return (
         <div className="project-container research-page">
             <h1>Research</h1>
-
-
             <div className="project-section">
                 <h2>Verbal Communication Design for Older Adults in Robotic Agents</h2>
 
@@ -16,36 +14,22 @@ const Research = () => {
                     </div>
                     <div className="research-text">
                         <p>
-                            Healthcare interactions rely not only on information exchange but also on how information is communicated. This research investigates how verbal communication strategies, including politeness and empathy, influence older adults' perceptions of healthcare conversational agents.
-                            By examining outcomes such as trust, perceived empathy, perceived personality, and intention to use, this work contributes to the design of conversational and robotic agents that better support the communication needs and preferences of older adults.
+                            Older adults may experience conversational agents differently depending on how these systems communicate, making communication strategy an essential design consideration in human-AI interaction.
+                            Strategies such as curiosity, empathy, and politeness can shape how older adults perceive an agent's interest, warmth, appropriateness, and trustworthiness, as well as their willingness to engage with it.
+                            This line of research examines how different verbal communication strategies influence older adults' experiences with conversational and robotic agents across controlled experiments and interactive settings.
+                            Together, these studies provide insights for designing conversational AI that communicates with older adults in ways that are engaging and responsive to their needs.
                         </p>
+
+                        <div className="research-publications">
+                            <p className="research-publications-title">Related Publications</p>
+                            <ul className="research-pub">
+                                <li>"I feel you" vs. "I understand you": How distinct empathic strategies shape robot personality and trust for older adults. (HFES 2026) [<a href="#" target="_blank" rel="noopener noreferrer">doi</a>]</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
 
-                <h3>Related Publications</h3>
-                <ul className='research-pub'>
-                    <li>
-                        (HFES 2026).
-                        <span className="publication-title"> "I feel you" vs. "I understand you": How distinct empathic strategies shape robot personality and trust for older adults. </span>
-                        {/* [<a href='#' target="_blank">doi</a>] [<a href='#' target="_blank">pdf</a>] */}
-                        <br />
-                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
-                    </li>
-                    <li>
-                        (International Journal of Human-Computer Interaction, 2026).
-                        <span className="publication-title"> Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults. </span>
-                        [<a href='https://doi.org/10.1080/10447318.2026.2693611' target="_blank">doi</a>]
-                        <br />
-                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Qiaoning Zhang.
-                    </li>
-                    <li>
-                        (CHI EA 2026).
-                        <span className="publication-title"> Who Needs What? The Interaction Between Empathy Communication and Trait Empathy in a Home-Based Virtual Healthcare Robotic Agent for Older Adults. </span>
-                        [<a href='https://doi.org/10.1145/3772363.3798526' target="_blank">doi</a>] [<a href='https://dl.acm.org/doi/pdf/10.1145/3772363.3798526' target="_blank">pdf</a>]
-                        <br />
-                        Authors: <span className='highlight-text'>Jiongyu Chen</span>, Camille Chalifoux, Na Du, Qiaoning Zhang.
-                    </li>
-                </ul>
             </div>
 
 
@@ -54,35 +38,26 @@ const Research = () => {
 
                 <div className="research-row">
                     <div className="research-icon">
-                        <img src={t1d} alt="Type 1 Diabetes" />
+                        <img src={workshop} alt="Type 1 Diabetes" />
                     </div>
                     <div className="research-text">
                         <p>
                             Children and parents often have different needs and preferences when using health-tracking technologies, creating challenges for the design of collaborative health-tracking systems.
+                            These differences can affect children's autonomy, parents' caregiving preferences, parent-child collaboration, and how families coordinate health-tracking tasks and decisions together.
                             This line of research combines findings from a literature review of children's health-tracking research published between 2010 and 2024 and a co-design study involving children with Type 1 diabetes and their parents.
-                            Together, these studies provide insights for designing family-centered health-tracking technologies that better support children's health management.
+                            Together, these studies provide insights for designing family-centered health-tracking technologies that better support shared monitoring, communication, and collaborative health management.
                         </p>
+
+
+                        <div className="research-publications">
+                            <p className="research-publications-title">Related Publications</p>
+                            <ul className="research-pub">
+                                <li>Collaborative health-tracking technologies for children and parents: A review of current studies and directions for future research. (CHI 2026) [<a href="https://doi.org/10.1145/3706598.3713596" target="_blank" rel="noopener noreferrer">doi</a>]</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <h3>Related Publications</h3>
-                <ul className='research-pub'>
-                    <li>
-                        (Under Review at International Journal of Human-Computer Interaction, 2026).
-                        <span className="publication-title"> Title temporarily withheld for review. </span>
-                        {/* [<a href='' target="_blank">doi</a>] [<a href='' target="_blank">pdf</a>] */}
-                        <br />
-                        Authors: Yoon Jeong Cha, <span className="highlight-text">Jiongyu Chen</span>, Melissa Wang, Allison Liu, Hanning Li, Joyce Lee, Mark W. Newman, Sun Young Park.
-                    </li>
-
-                    <li>
-                        (CHI 2025).
-                        <span className="publication-title"> Collaborative Health-Tracking Technologies for Children and Parents: A Review of Current Studies and Directions for Future Research. </span>
-                        [<a href='https://doi.org/10.1145/3706598.3713596' target="_blank">doi</a>] [<a href='https://dl.acm.org/doi/pdf/10.1145/3706598.3713596' target="_blank">pdf</a>]
-                        <br />
-                        Authors: Yoon Jeong Cha, <span className='highlight-text'>Jiongyu Chen</span>, Yasemin Gunal, Qiying Zhu, Mark W. Newman, Sun Young Park.
-                    </li>
-                </ul>
             </div>
         </div>
     );

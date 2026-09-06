@@ -5,7 +5,7 @@ const publications = [
         year: "2026",
         type: "conference",
         status: "accepted",
-        sectionTitle: "Peer-Reviewed Conference Papers",
+        sectionTitle: "Conference Papers",
         venue: "HFES 2026",
         authors: (
             <>
@@ -14,13 +14,12 @@ const publications = [
         ),
         title: "\"I feel you\" vs. \"I understand you\": How distinct empathic strategies shape robot personality and trust for older adults.",
         doi: "#",
-        pdf: "#"
     },
     {
         year: "2025",
         type: "conference",
         status: "accepted",
-        sectionTitle: "Peer-Reviewed Conference Papers",
+        sectionTitle: "Conference Papers",
         venue: "CHI 2025",
         authors: (
             <>
@@ -29,13 +28,12 @@ const publications = [
         ),
         title: "Collaborative health-tracking technologies for children and parents: A review of current studies and directions for future research.",
         doi: "https://dl.acm.org/doi/full/10.1145/3706598.3713596",
-        pdf: "https://dl.acm.org/doi/pdf/10.1145/3706598.3713596"
     },
     {
         year: "2026",
         type: "journal",
         status: "accepted",
-        sectionTitle: "Peer-Reviewed Journal Papers",
+        sectionTitle: "Journal Papers",
         venue: "International Journal of Human-Computer Interaction, 2026",
         authors: (
             <>
@@ -44,43 +42,12 @@ const publications = [
         ),
         title: "Interrupting politely: Robot-initiated interruptions and politeness strategies in home healthcare interactions with older adults.",
         doi: "https://doi.org/10.1080/10447318.2026.2693611",
-        pdf: "#"
-    },
-    {
-        year: "2026",
-        type: "journal",
-        status: "under-review",
-        sectionTitle: "Peer-Reviewed Journal Papers",
-        venue: "International Journal of Human-Computer Interaction, 2026",
-        authors: (
-            <>
-                Yoon Jeong Cha, <span className="under-review-highlight-text">Jiongyu Chen</span>, Melissa Wang, Allison Liu, Hanning Li, Joyce Lee, Mark W. Newman, and Sun Young Park.
-            </>
-        ),
-        title: "Title temporarily withheld for review.",
-        doi: "#",
-        pdf: "#"
     },
     {
         year: "2026",
         type: "late-breaking-poster",
         status: "accepted",
-        sectionTitle: "Peer-Reviewed Posters & Late-Breaking Work",
-        venue: "HFES 2026",
-        authors: (
-            <>
-                <span className="highlight-text">Jiongyu Chen</span> and Qiaoning Zhang.
-            </>
-        ),
-        title: "The influence of perceived empathy and negative attitudes on trust in home healthcare robotic agents among older adults.",
-        doi: "#",
-        pdf: "#"
-    },
-    {
-        year: "2026",
-        type: "late-breaking-poster",
-        status: "accepted",
-        sectionTitle: "Peer-Reviewed Posters & Late-Breaking Work",
+        sectionTitle: "Posters & Late-Breaking Work",
         venue: "CHI EA 2026",
         authors: (
             <>
@@ -89,7 +56,6 @@ const publications = [
         ),
         title: "Who needs what? The interaction between empathy communication and trait empathy in a home-based virtual healthcare robotic agent for older adults.",
         doi: "https://doi.org/10.1145/3772363.3798526",
-        pdf: "https://dl.acm.org/doi/pdf/10.1145/3772363.3798526"
     }
 ];
 
@@ -147,7 +113,8 @@ const Publications = () => {
 
     return (
         <div className="project-container">
-            <h1>Publications</h1>
+            <h1>Selected Publications</h1>
+            <p>For a full list of publications, please visit my <a href="https://scholar.google.com/citations?user=M7GwXuQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> profile.</p>
 
             <div className="publication-filter-bar">
                 <div className="publication-filter-row">
